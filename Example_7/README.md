@@ -1,6 +1,6 @@
 # Computational Verification
 
-This repository contains three Python scripts for reproducing and verifying computational results presented in our paper.
+This folder contains three Python scripts for reproducing and verifying computational results presented in our paper.
 
 ## File Descriptions
 
