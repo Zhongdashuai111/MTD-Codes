@@ -59,4 +59,4 @@ The searches for $(\ell,q)=(4,7)$ and $(4,8)$ did not finish within the 120-hour
 | `ref[3] Table compute dT .py` | Computes the minimum distance of a **256-word binary-message subset** associated with the comparison matrix from reference [3]. | $d_T^2=8$, $d_T=2\sqrt{2}$. |
 | `Example 7_Delsarte LP Bound.py` | Computes the Delsarte LP upper bound for $(n,q,M)=(16,4,65536)$ (Table IX). | $\delta_0=13$, yielding $d_T^2\leq 12$ and $d_T\leq 2\sqrt{3}$. |
 
-**Scope note:** The two distance-checking scripts above consider messages in $\{0,1\}^8$, whereas the full $\mathbb Z_4$-linear code in Example 7 has $4^8=65536$ codewords. Their outputs alone do not verify the minimum distance of the full code or of the full code cited from reference [3].
+
