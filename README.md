@@ -59,4 +59,4 @@ The searches for $(\ell,q)=(4,7)$ and $(4,8)$ did not finish within the 120-hour
 | `ref[3] Table compute dT .py` | Computes the minimum distance of a **256-word binary-message subset** associated with the comparison matrix from reference [3]. | $d_T^2=8$, $d_T=2\sqrt{2}$. |
 | `Example 7_Delsarte LP Bound.py` | Computes the Delsarte LP upper bound for $(n,q,M)=(16,4,65536)$ (Table IX). | $\delta_0=13$, yielding $d_T^2\leq 12$ and $d_T\leq 2\sqrt{3}$. |
 
-
+[3] C. Bachoc, T. A. Gulliver, and M. Harada, "Isodual codes over Z₂ₖ and isodual lattices," *Journal of Algebraic Combinatorics*, vol. 12, no. 3, pp. 223–240, 2000.
