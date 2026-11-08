@@ -6,7 +6,10 @@ This repository contains Python programs supporting the computational results in
 
 We solved the linear programs for different values of $\delta$ using Python 3.12 on a computer equipped with an AMD Ryzen 7 7735U processor and 16 GB of RAM.
 
-For the LP computations, we used **SciPy 1.17.1** and **HiGHS 1.12.0**, with primal and dual feasibility tolerances set to $10^{-9}$, as reported in the manuscript. The LP scripts require NumPy and SciPy; the other scripts use the Python standard library.
+For the LP computations, we used **SciPy 1.17.1** and **HiGHS 1.12.0**, with primal and dual feasibility tolerances set to $10^{-9}$, as reported in the manuscript. The LP scripts require NumPy and SciPy.
+Both distance-computation scripts in `Example_7/`
+require NumPy and Numba.
+The exact MTD search script uses only the Python standard library.
 
 ## Files and Results
 
