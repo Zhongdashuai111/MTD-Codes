@@ -21,7 +21,7 @@ The exact MTD search script uses only the Python standard library.
 | `Example 6_Delsarte LP Bound .py` | Example 6; Table VIII | Computes the Delsarte LP bound for $(4,12,16)$: $\delta_0=49$, yielding $d_T^2\leq 48$. |
 | `Table IV/` | Table IV | Contains 12 local ball–Plotkin scripts and 12 Delsarte LP scripts for the parameter pairs listed below. |
 | `Table V MTD_exhaustive_search.py` | Table V | Searches for MTD codes using an exact graph-based maximum-clique algorithm; results are summarized below. |
-| `Example 7/` | Example 7; Table IX | Contains the distance-checking and LP scripts listed below. |
+| `Example_7/` | Example 7; Table IX | Contains the distance-checking and LP scripts listed below. |
 
 ### Table IV: Upper Bounds on $d_T^2$
 
