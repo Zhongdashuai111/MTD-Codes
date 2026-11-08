@@ -25,7 +25,10 @@ The exact MTD search script uses only the Python standard library.
 
 ### Table IV: Upper Bounds on $d_T^2$
 
-All 12 cases use $M=2^n$. Scripts are stored in `Table IV/Local_plotkin_bound/` and `Table IV/Delsarte_LP_Bound_files/`.
+All 12 cases use $M=2^n$.
+The 12 local ball–Plotkin scripts and 12 Delsarte LP scripts
+are stored directly in `Table IV/`.
+Their filenames specify the parameters $n$ and $q$.
 
 | $n$ | $q$ | Local ball–Plotkin | Delsarte LP |
 |---:|---:|---:|---:|
