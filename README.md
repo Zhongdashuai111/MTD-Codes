@@ -10,6 +10,7 @@ For the LP computations, we used **SciPy 1.17.1** and **HiGHS 1.12.0**, with pri
 Both distance-computation scripts in `Example_7/`
 require NumPy and Numba.
 The exact MTD search script uses only the Python standard library. 
+
 The DFR computations use additional dependencies and numerical procedures described in `DFR/README.md`. The corresponding requirements files are provided in `DFR/`.
 
 
