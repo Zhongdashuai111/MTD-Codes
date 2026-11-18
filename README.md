@@ -24,7 +24,7 @@ The DFR computations use additional dependencies and numerical procedures descri
 | `Example 6_Delsarte LP Bound .py` | Example 6; Table IX | Computes the Delsarte LP bound for $(4,12,16)$: $\delta_0=49$, yielding $d_T^2\leq 48$. |
 | `Table V/` | Table V | Contains 12 local ball–Plotkin scripts and 12 Delsarte LP scripts for the parameter pairs listed below. |
 | `Table VI MTD_exhaustive_search.py` | Table VI | Searches for MTD codes using an exact graph-based maximum-clique algorithm; results are summarized below. |
-| `Example_7/` | Example 7; Table IX | Contains the distance-checking and LP scripts listed below. |
+| `Example_7/` | Example 7; Table X | Contains the distance-checking and LP scripts listed below. |
 | `DFR/` | Table II | Contains Python scripts for reproducing the numerical DFR bounds for Kyber-1024 with $\ell=2,4$, comparing the codes in Liu and Sakzad with our constructions. |
 
 
