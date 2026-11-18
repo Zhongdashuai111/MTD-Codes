@@ -18,14 +18,14 @@ The DFR computations use additional dependencies and numerical procedures descri
 
 | File or folder | Location in the paper | Purpose and result |
 |---|---|---|
-| `Example 2_local_plotkin_bound.py` | Example 2; Table II | Computes the local ball–Plotkin bound for $(n,q,M)=(2,4,4)$: $d_T^2\leq 4$. |
-| `Example 3_Delsarte LP Bound.py` | Example 3; Table III | Computes the Delsarte LP bound for $(8,4,256)$: $\delta_0=9$, yielding $d_T^2\leq 8$. |
-| `Example 5_Delsarte LP Bound.py` | Example 5; Table VII | Computes the Delsarte LP bound for $(4,6,16)$: $\delta_0=13$, yielding $d_T^2\leq 12$. |
-| `Example 6_Delsarte LP Bound .py` | Example 6; Table VIII | Computes the Delsarte LP bound for $(4,12,16)$: $\delta_0=49$, yielding $d_T^2\leq 48$. |
+| `Example 2_local_plotkin_bound.py` | Example 2; Table III | Computes the local ball–Plotkin bound for $(n,q,M)=(2,4,4)$: $d_T^2\leq 4$. |
+| `Example 3_Delsarte LP Bound.py` | Example 3; Table IV | Computes the Delsarte LP bound for $(8,4,256)$: $\delta_0=9$, yielding $d_T^2\leq 8$. |
+| `Example 5_Delsarte LP Bound.py` | Example 5; Table VIII | Computes the Delsarte LP bound for $(4,6,16)$: $\delta_0=13$, yielding $d_T^2\leq 12$. |
+| `Example 6_Delsarte LP Bound .py` | Example 6; Table VIIII | Computes the Delsarte LP bound for $(4,12,16)$: $\delta_0=49$, yielding $d_T^2\leq 48$. |
 | `Table IV/` | Table IV | Contains 12 local ball–Plotkin scripts and 12 Delsarte LP scripts for the parameter pairs listed below. |
 | `Table V MTD_exhaustive_search.py` | Table V | Searches for MTD codes using an exact graph-based maximum-clique algorithm; results are summarized below. |
 | `Example_7/` | Example 7; Table IX | Contains the distance-checking and LP scripts listed below. |
-| `DFR/` | Section I~B | Contains Python scripts for reproducing the numerical DFR bounds for Kyber-1024 with $\ell=2,4$, comparing the codes in Liu and Sakzad with our constructions. |
+| `DFR/` | Table II | Contains Python scripts for reproducing the numerical DFR bounds for Kyber-1024 with $\ell=2,4$, comparing the codes in Liu and Sakzad with our constructions. |
 
 
 ### Table IV: Upper Bounds on $d_T^2$
