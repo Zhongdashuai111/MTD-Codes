@@ -9,7 +9,9 @@ We solved the linear programs for different values of $\delta$ using Python 3.12
 For the LP computations, we used **SciPy 1.17.1** and **HiGHS 1.12.0**, with primal and dual feasibility tolerances set to $10^{-9}$, as reported in the manuscript. The LP scripts require NumPy and SciPy.
 Both distance-computation scripts in `Example_7/`
 require NumPy and Numba.
-The exact MTD search script uses only the Python standard library.
+The exact MTD search script uses only the Python standard library. 
+The DFR computations use additional dependencies and numerical procedures described in `DFR/README.md`. The corresponding requirements files are provided in `DFR/`.
+
 
 ## Files and Results
 
