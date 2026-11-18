@@ -28,7 +28,7 @@ The DFR computations use additional dependencies and numerical procedures descri
 | `DFR/` | Table II | Contains Python scripts for reproducing the numerical DFR bounds for Kyber-1024 with $\ell=2,4$, comparing the codes in Liu and Sakzad with our constructions. |
 
 
-### Table IV: Upper Bounds on $d_T^2$
+### Table V: Upper Bounds on $d_T^2$
 
 All 12 cases use $M=2^n$.
 The 12 local ball–Plotkin scripts and 12 Delsarte LP scripts
@@ -50,7 +50,7 @@ Their filenames specify the parameters $n$ and $q$.
 | 16 | 4 | 13 | 12 |
 | 16 | 5 | 21 | 16 |
 
-### Table V: Exact MTD Search
+### Table VI: Exact MTD Search
 
 The program computes the following minimum toroidal distances for codes of size $2^\ell$:
 
