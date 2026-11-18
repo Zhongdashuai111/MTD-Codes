@@ -1,0 +1,70 @@
+Computing 2D joint distribution: 320 bits, 6 threads.
+
+LiuSakzad_l2_gamma446: ell=2, |C|=4, dT^2=2967048
+log2(DFR bound) = -184.037888446259
+DFR bound = 2^(-184.04)
+
+
+ThisWork_l2_gamma446: ell=2, |C|=4, dT^2=2967812
+log2(DFR bound) = -184.154976325681
+DFR bound = 2^(-184.15)
+
+LiuSakzad_l4_scale554 0 304 4.2 None
+LiuSakzad_l4_scale554 10 304 4.2 None
+LiuSakzad_l4_scale554 20 304 9.2 None
+LiuSakzad_l4_scale554 30 304 12.0 None
+LiuSakzad_l4_scale554 40 304 15.2 None
+LiuSakzad_l4_scale554 50 304 17.7 None
+LiuSakzad_l4_scale554 60 304 19.7 None
+LiuSakzad_l4_scale554 70 304 21.6 -221.73584062029718
+LiuSakzad_l4_scale554 80 304 26.5 -234.60775253885186
+LiuSakzad_l4_scale554 90 304 31.2 None
+LiuSakzad_l4_scale554 100 304 37.0 -234.29639498202394
+LiuSakzad_l4_scale554 110 304 41.2 -234.25054924525375
+LiuSakzad_l4_scale554 120 304 45.9 -235.33445908330538
+LiuSakzad_l4_scale554 130 304 48.8 None
+LiuSakzad_l4_scale554 140 304 49.5 None
+LiuSakzad_l4_scale554 150 304 50.8 None
+LiuSakzad_l4_scale554 160 304 52.8 -222.48243494998874
+LiuSakzad_l4_scale554 170 304 54.1 None
+LiuSakzad_l4_scale554 180 304 56.4 -233.89390012533454
+LiuSakzad_l4_scale554 190 304 59.9 -233.89390012533516
+LiuSakzad_l4_scale554 200 304 63.5 None
+LiuSakzad_l4_scale554 210 304 68.7 -235.0067501030575
+LiuSakzad_l4_scale554 220 304 74.0 -235.65905225423313
+LiuSakzad_l4_scale554 230 304 78.0 -222.48474718903125
+LiuSakzad_l4_scale554 240 304 82.1 -222.48473940858585
+LiuSakzad_l4_scale554 250 304 84.0 None
+LiuSakzad_l4_scale554 260 304 87.3 -223.17932113822403
+LiuSakzad_l4_scale554 270 304 90.5 -223.7582559123255
+LiuSakzad_l4_scale554 280 304 94.9 -234.257747656005
+LiuSakzad_l4_scale554 290 304 98.9 -235.30968694944235
+LiuSakzad_l4_scale554 300 304 99.5 None
+DONE LiuSakzad_l4_scale554 -213.55573677843685 99.5611343383789
+
+LiuSakzad_l4_scale554: ell=4, |C|=16, dT^2=3682992
+log2(DFR bound) = -213.555736778437
+DFR bound = 2^(-213.56)
+
+ThisWork_l4_gamma554 0 152 1.6 None
+ThisWork_l4_gamma554 10 152 4.1 -234.42975360148037
+ThisWork_l4_gamma554 20 152 9.0 None
+ThisWork_l4_gamma554 30 152 11.5 -222.62010314082877
+ThisWork_l4_gamma554 40 152 14.0 None
+ThisWork_l4_gamma554 50 152 20.2 -234.70995633202955
+ThisWork_l4_gamma554 60 152 26.0 -234.41259684164032
+ThisWork_l4_gamma554 70 152 31.1 None
+ThisWork_l4_gamma554 80 152 37.8 -222.48053189385806
+ThisWork_l4_gamma554 90 152 42.6 -234.70972036790835
+ThisWork_l4_gamma554 100 152 50.4 -234.92308705399057
+ThisWork_l4_gamma554 110 152 56.3 -234.70971283688027
+ThisWork_l4_gamma554 120 152 61.2 -222.4884265876567
+ThisWork_l4_gamma554 130 152 63.7 -222.99600219198646
+ThisWork_l4_gamma554 140 152 70.2 -234.70144754392075
+ThisWork_l4_gamma554 150 152 72.8 None
+DONE ThisWork_l4_gamma554 -213.72390912883594 72.80223941802979
+
+ThisWork_l4_gamma554: ell=4, |C|=16, dT^2=3689644
+log2(DFR bound) = -213.723909128836
+DFR bound = 2^(-213.72)
+

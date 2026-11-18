@@ -1,0 +1,24 @@
+{
+  "LiuSakzad_l4_scale554": {
+    "h": [
+      -1113,
+      -1113,
+      0,
+      1113
+    ],
+    "log2_difference_after_source_cleanup": 0.0
+  },
+  "ThisWork_l4_gamma554": {
+    "h": [
+      -1110,
+      -1110,
+      3,
+      1110
+    ],
+    "log2_difference_after_source_cleanup": 0.0
+  },
+  "2d_precision_comparison": {
+    "ours_gamma446": 0.0,
+    "previous_gamma446": 0.0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "precision_bits": 320,
+  "grid": 2048,
+  "mass": 1.0,
+  "negative_mass": 6.019014160277397e-95,
+  "imaginary_l1": 2.5175645695389303e-93,
+  "cases": [
+    {
+      "name": "ours_gamma446",
+      "ties_error": 3.662927098384244e-56,
+      "log2_ties_error": -184.15497632568054,
+      "strict_error": 3.66169441541566e-56,
+      "log2_strict_error": -184.15546191681153,
+      "deterministic_first": 3.6623079057102754e-56,
+      "log2_deterministic_first": -184.15522022398596,
+      "pairwise_ties": 3.662927098384244e-56,
+      "log2_pairwise_ties": -184.15497632568054,
+      "voronoi_pairwise": 3.662927098384244e-56,
+      "log2_voronoi_pairwise": -184.15497632568054
+    },
+    {
+      "name": "previous_gamma446",
+      "ties_error": 3.9726036657569427e-56,
+      "log2_ties_error": -184.03788844625896,
+      "strict_error": 3.4120701815887492e-56,
+      "log2_strict_error": -184.257325992479,
+      "deterministic_first": 3.693168594006288e-56,
+      "log2_deterministic_first": -184.14311419028093,
+      "pairwise_ties": 3.9726036657569427e-56,
+      "log2_pairwise_ties": -184.03788844625896,
+      "voronoi_pairwise": 3.9726036657569427e-56,
+      "log2_voronoi_pairwise": -184.03788844625896
+    }
+  ],
+  "elapsed_seconds": 35.685
+}

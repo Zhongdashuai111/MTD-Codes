@@ -1,0 +1,107 @@
+{
+  "codewords": [
+    [
+      0,
+      0
+    ],
+    [
+      446,
+      1664
+    ],
+    [
+      1664,
+      2883
+    ],
+    [
+      2110,
+      1218
+    ]
+  ],
+  "directions": [
+    [
+      -1665,
+      -446
+    ],
+    [
+      -1664,
+      446
+    ],
+    [
+      -1219,
+      1218
+    ],
+    [
+      -1218,
+      -1219
+    ],
+    [
+      -446,
+      -1664
+    ],
+    [
+      -446,
+      1665
+    ],
+    [
+      446,
+      -1665
+    ],
+    [
+      446,
+      1664
+    ],
+    [
+      1218,
+      1219
+    ],
+    [
+      1219,
+      -1218
+    ],
+    [
+      1664,
+      -446
+    ],
+    [
+      1665,
+      446
+    ]
+  ],
+  "multiplicities": [
+    2,
+    2,
+    1,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    2,
+    2
+  ],
+  "verification": {
+    "different_directions": 12,
+    "total_multiplicity": 20,
+    "checks": [
+      {
+        "vertices": 5,
+        "max_constraint_violation": 2.3283064365386963e-10
+      },
+      {
+        "vertices": 5,
+        "max_constraint_violation": 0.0
+      },
+      {
+        "vertices": 5,
+        "max_constraint_violation": 0.0
+      },
+      {
+        "vertices": 5,
+        "max_constraint_violation": 2.3283064365386963e-10
+      }
+    ],
+    "status": "floating-point geometry check, not an exact rational certificate"
+  }
+}

@@ -1,0 +1,7281 @@
+{
+  "label": "LiuSakzad_l4_scale554",
+  "parameters": {
+    "q": 3329,
+    "n": 256,
+    "k": 4,
+    "eta1": 2,
+    "eta2": 2,
+    "du": 11,
+    "dv": 5
+  },
+  "complete": true,
+  "directions": [
+    {
+      "h": [
+        -2770,
+        -554,
+        559,
+        1667
+      ],
+      "primitive_h": [
+        -2770,
+        -554,
+        559,
+        1667
+      ],
+      "threshold": 5535593,
+      "multiplicity": 1,
+      "chernoff_log2": -611.540464345633,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2221,
+        -1113,
+        1108,
+        0
+      ],
+      "primitive_h": [
+        -2221,
+        -1113,
+        1108,
+        0
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.02162413527054,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2221,
+        0,
+        -1113,
+        1108
+      ],
+      "primitive_h": [
+        -2221,
+        0,
+        -1113,
+        1108
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.08092629604766,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2221,
+        0,
+        -1108,
+        1108
+      ],
+      "primitive_h": [
+        -2221,
+        0,
+        -1108,
+        1108
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.3959549155498,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2221,
+        1108,
+        0,
+        -1113
+      ],
+      "primitive_h": [
+        -2221,
+        1108,
+        0,
+        -1113
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -419.9337841780548,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2221,
+        1108,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        -2221,
+        1108,
+        0,
+        -1108
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -419.4138766941651,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2216,
+        -1108,
+        1108,
+        0
+      ],
+      "primitive_h": [
+        -2,
+        -1,
+        1,
+        0
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -453.07012854394975,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2216,
+        -1108,
+        1113,
+        0
+      ],
+      "primitive_h": [
+        -2216,
+        -1108,
+        1113,
+        0
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.75538883282206,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2216,
+        0,
+        -1108,
+        1108
+      ],
+      "primitive_h": [
+        -2,
+        0,
+        -1,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -453.07012854394975,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2216,
+        0,
+        -1108,
+        1113
+      ],
+      "primitive_h": [
+        -2216,
+        0,
+        -1108,
+        1113
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.69645208243634,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2216,
+        1108,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        -2,
+        1,
+        0,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -418.2079839192248,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -2216,
+        1113,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        -2216,
+        1113,
+        0,
+        -1108
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -418.7287183659995,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1667,
+        -559,
+        -559,
+        -559
+      ],
+      "primitive_h": [
+        -1667,
+        -559,
+        -559,
+        -559
+      ],
+      "threshold": 1858166,
+      "multiplicity": 1,
+      "chernoff_log2": -230.43693579280105,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.99145302835618,
+        "tilt": 0.00017244165768251767,
+        "fft_length": 2097152,
+        "full_support_length": 34603713,
+        "relative_alias_bound_log2": -164.7925947816512,
+        "relative_truncated_weight_bound_log2": -63.69509008030993,
+        "tilted_mass": 0.9999999999999993,
+        "weighted_tail": 0.021277651952039185
+      }
+    },
+    {
+      "h": [
+        -1667,
+        -559,
+        -554,
+        -554
+      ],
+      "primitive_h": [
+        -1667,
+        -559,
+        -554,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.78511557353835,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.33552561544374,
+        "tilt": 0.0001724747322813369,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.98755576375402,
+        "relative_truncated_weight_bound_log2": -63.69904272883948,
+        "tilted_mass": 1.000000000000028,
+        "weighted_tail": 0.021338313387421873
+      }
+    },
+    {
+      "h": [
+        -1667,
+        -554,
+        -554,
+        -554
+      ],
+      "primitive_h": [
+        -1667,
+        -554,
+        -554,
+        -554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 5,
+      "chernoff_log2": -229.49012504050293,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.0282425716998,
+        "tilt": 0.00017253714050830622,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14812282452704,
+        "relative_truncated_weight_bound_log2": -63.711251683254474,
+        "tilted_mass": 0.9999999999999717,
+        "weighted_tail": 0.02152090367239809
+      }
+    },
+    {
+      "h": [
+        -1667,
+        -554,
+        -554,
+        2775
+      ],
+      "primitive_h": [
+        -1667,
+        -554,
+        -554,
+        2775
+      ],
+      "threshold": 5546673,
+      "multiplicity": 1,
+      "chernoff_log2": -645.0701477903376,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1667,
+        554,
+        554,
+        554
+      ],
+      "primitive_h": [
+        -1667,
+        554,
+        554,
+        554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 5,
+      "chernoff_log2": -229.4772260791568,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.01529538304064,
+        "tilt": 0.0001725327154058935,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14770763576175,
+        "relative_truncated_weight_bound_log2": -63.71151515173295,
+        "tilted_mass": 1.0000000000001135,
+        "weighted_tail": 0.021521623098664906
+      }
+    },
+    {
+      "h": [
+        -1667,
+        554,
+        554,
+        559
+      ],
+      "primitive_h": [
+        -1667,
+        554,
+        554,
+        559
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.77218259031054,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.32254776415897,
+        "tilt": 0.00017247030496710556,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.98726989157868,
+        "relative_truncated_weight_bound_log2": -63.699051762846494,
+        "tilted_mass": 0.9999999999999997,
+        "weighted_tail": 0.021338977022849964
+      }
+    },
+    {
+      "h": [
+        -1667,
+        554,
+        559,
+        554
+      ],
+      "primitive_h": [
+        -1667,
+        554,
+        559,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.7877348357517,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.33869440009943,
+        "tilt": 0.00017249338935256878,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.0083696751795,
+        "relative_truncated_weight_bound_log2": -63.69851845147876,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021330187173043233
+      }
+    },
+    {
+      "h": [
+        -1667,
+        559,
+        554,
+        554
+      ],
+      "primitive_h": [
+        -1667,
+        559,
+        554,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.81829708222344,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.37118595825595,
+        "tilt": 0.00017253870074050771,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04902166091406,
+        "relative_truncated_weight_bound_log2": -63.69660871051568,
+        "tilted_mass": 0.9999999999999998,
+        "weighted_tail": 0.02130168144325587
+      }
+    },
+    {
+      "h": [
+        -1667,
+        2770,
+        -559,
+        -559
+      ],
+      "primitive_h": [
+        -1667,
+        2770,
+        -559,
+        -559
+      ],
+      "threshold": 5538376,
+      "multiplicity": 1,
+      "chernoff_log2": -611.6836233196315,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1662,
+        -2770,
+        559,
+        559
+      ],
+      "primitive_h": [
+        -1662,
+        -2770,
+        559,
+        559
+      ],
+      "threshold": 5530053,
+      "multiplicity": 1,
+      "chernoff_log2": -643.3716985205954,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1662,
+        -559,
+        -554,
+        -554
+      ],
+      "primitive_h": [
+        -1662,
+        -559,
+        -554,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7190935510863,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26768332668627,
+        "tilt": 0.0001724852047249642,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.63014532579564,
+        "relative_truncated_weight_bound_log2": -63.70083739239454,
+        "tilted_mass": 0.9999999999999709,
+        "weighted_tail": 0.02136525319481013
+      }
+    },
+    {
+      "h": [
+        -1662,
+        -554,
+        -559,
+        -554
+      ],
+      "primitive_h": [
+        -1662,
+        -554,
+        -559,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.73457032128147,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.28355412651757,
+        "tilt": 0.00017250828862794046,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6514571016488,
+        "relative_truncated_weight_bound_log2": -63.700502653572734,
+        "tilted_mass": 0.9999999999999996,
+        "weighted_tail": 0.021359418702307117
+      }
+    },
+    {
+      "h": [
+        -1662,
+        -554,
+        -554,
+        -559
+      ],
+      "primitive_h": [
+        -1662,
+        -554,
+        -554,
+        -559
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7650543020048,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.3135394399195,
+        "tilt": 0.00017255370376192085,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6946371078109,
+        "relative_truncated_weight_bound_log2": -63.70105938911688,
+        "tilted_mass": 1.0000000000000562,
+        "weighted_tail": 0.0213668028582187
+      }
+    },
+    {
+      "h": [
+        -1662,
+        -554,
+        -554,
+        -554
+      ],
+      "primitive_h": [
+        -3,
+        -1,
+        -1,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 5,
+      "chernoff_log2": -228.42367055772678,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.90252575095568,
+        "tilt": 0.09559136459308194,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28884247283705,
+        "relative_truncated_weight_bound_log2": -63.88946619484676,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.02242333704956347
+      }
+    },
+    {
+      "h": [
+        -1662,
+        554,
+        -2775,
+        554
+      ],
+      "primitive_h": [
+        -1662,
+        554,
+        -2775,
+        554
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -658.6048156633155,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1662,
+        554,
+        554,
+        554
+      ],
+      "primitive_h": [
+        -3,
+        1,
+        1,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 5,
+      "chernoff_log2": -228.4107708184152,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.88958267278068,
+        "tilt": 0.09558890016674211,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28944861703621,
+        "relative_truncated_weight_bound_log2": -63.887721159634026,
+        "tilted_mass": 1.0000000000000007,
+        "weighted_tail": 0.022424010661463108
+      }
+    },
+    {
+      "h": [
+        -1662,
+        559,
+        554,
+        554
+      ],
+      "primitive_h": [
+        -1662,
+        559,
+        554,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7521154159942,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.30055594066206,
+        "tilt": 0.0001725492478176413,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6943454161942,
+        "relative_truncated_weight_bound_log2": -63.70105828687013,
+        "tilted_mass": 0.9999999999999433,
+        "weighted_tail": 0.021367463605746314
+      }
+    },
+    {
+      "h": [
+        -1662,
+        559,
+        559,
+        559
+      ],
+      "primitive_h": [
+        -1662,
+        559,
+        559,
+        559
+      ],
+      "threshold": 1849844,
+      "multiplicity": 1,
+      "chernoff_log2": -229.35803411183804,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.90819224165878,
+        "tilt": 0.00017244763689680962,
+        "fft_length": 2073600,
+        "full_support_length": 34551973,
+        "relative_alias_bound_log2": -162.41659836144163,
+        "relative_truncated_weight_bound_log2": -63.699362442280304,
+        "tilted_mass": 0.9999999999999154,
+        "weighted_tail": 0.021342039641543978
+      }
+    },
+    {
+      "h": [
+        -1113,
+        -2216,
+        -1113,
+        0
+      ],
+      "primitive_h": [
+        -1113,
+        -2216,
+        -1113,
+        0
+      ],
+      "threshold": 3694097,
+      "multiplicity": 1,
+      "chernoff_log2": -419.25621868710397,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        -2216,
+        -1108,
+        0
+      ],
+      "primitive_h": [
+        -1113,
+        -2216,
+        -1108,
+        0
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -418.735877134466,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        -1113,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        -1113,
+        -1113,
+        0,
+        1108
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.5242951758001,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.09891192480578,
+        "tilt": 0.0001577658271265617,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.91801701328646,
+        "relative_truncated_weight_bound_log2": -63.674882467961915,
+        "tilted_mass": 0.9999999999999998,
+        "weighted_tail": 0.020983268807255175
+      }
+    },
+    {
+      "h": [
+        -1113,
+        -1113,
+        0,
+        1113
+      ],
+      "primitive_h": [
+        -1,
+        -1,
+        0,
+        1
+      ],
+      "threshold": 1670,
+      "multiplicity": 1,
+      "chernoff_log2": -218.296707093657,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.7661598731297,
+        "tilt": 0.17560122040290635,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -209.50491015677295,
+        "relative_truncated_weight_bound_log2": -63.94543591924618,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.022569952938405302
+      }
+    },
+    {
+      "h": [
+        -1113,
+        -1108,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        -1113,
+        -1108,
+        0,
+        1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 2,
+      "chernoff_log2": -216.87841177255632,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.4926194704599,
+        "tilt": 0.0001577962887704297,
+        "fft_length": 2332800,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -199.55512121676236,
+        "relative_truncated_weight_bound_log2": -63.63523084457358,
+        "tilted_mass": 0.9999999999999429,
+        "weighted_tail": 0.0204152677920694
+      }
+    },
+    {
+      "h": [
+        -1113,
+        -1108,
+        0,
+        1113
+      ],
+      "primitive_h": [
+        -1113,
+        -1108,
+        0,
+        1113
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.52426007525384,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.0988410437803,
+        "tilt": 0.00015776581689472464,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.9180642240376,
+        "relative_truncated_weight_bound_log2": -63.67491375729388,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.02098378922266291
+      }
+    },
+    {
+      "h": [
+        -1113,
+        0,
+        -2216,
+        -1108
+      ],
+      "primitive_h": [
+        -1113,
+        0,
+        -2216,
+        -1108
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.76362369283936,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        0,
+        1108,
+        -1113
+      ],
+      "primitive_h": [
+        -1113,
+        0,
+        1108,
+        -1113
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.5243053832706,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.09892217304338,
+        "tilt": 0.00015776583457744126,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.9180257199818,
+        "relative_truncated_weight_bound_log2": -63.674885697673545,
+        "tilted_mass": 0.9999999999999997,
+        "weighted_tail": 0.020983268214327902
+      }
+    },
+    {
+      "h": [
+        -1113,
+        0,
+        1108,
+        -1108
+      ],
+      "primitive_h": [
+        -1113,
+        0,
+        1108,
+        -1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.9204517712449,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49821799669255,
+        "tilt": 0.0001578500897806008,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.8044461266958,
+        "relative_truncated_weight_bound_log2": -63.671599201168135,
+        "tilted_mass": 1.0000000000000568,
+        "weighted_tail": 0.020937511230995957
+      }
+    },
+    {
+      "h": [
+        -1113,
+        0,
+        1108,
+        2216
+      ],
+      "primitive_h": [
+        -1113,
+        0,
+        1108,
+        2216
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -418.71456244026746,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        0,
+        1108,
+        2221
+      ],
+      "primitive_h": [
+        -1113,
+        0,
+        1108,
+        2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -419.9195698372858,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        0,
+        1113,
+        -1108
+      ],
+      "primitive_h": [
+        -1113,
+        0,
+        1113,
+        -1108
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.56656758271652,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.18724107137308,
+        "tilt": 0.0001578197747795041,
+        "fft_length": 2332800,
+        "full_support_length": 45846153,
+        "relative_alias_bound_log2": -199.0846336970172,
+        "relative_truncated_weight_bound_log2": -63.62882610757099,
+        "tilted_mass": 0.9999999999999714,
+        "weighted_tail": 0.020323976500190247
+      }
+    },
+    {
+      "h": [
+        -1113,
+        0,
+        1113,
+        2221
+      ],
+      "primitive_h": [
+        -1113,
+        0,
+        1113,
+        2221
+      ],
+      "threshold": 3705190,
+      "multiplicity": 1,
+      "chernoff_log2": -420.43944419076627,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        1108,
+        -1113,
+        0
+      ],
+      "primitive_h": [
+        -1113,
+        1108,
+        -1113,
+        0
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.56660269501876,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.187306759546,
+        "tilt": 0.00015781978501994392,
+        "fft_length": 2332800,
+        "full_support_length": 45846153,
+        "relative_alias_bound_log2": -199.08459168579387,
+        "relative_truncated_weight_bound_log2": -63.628800025087756,
+        "tilted_mass": 0.9999999999999153,
+        "weighted_tail": 0.020323545766967807
+      }
+    },
+    {
+      "h": [
+        -1113,
+        1108,
+        -1108,
+        0
+      ],
+      "primitive_h": [
+        -1113,
+        1108,
+        -1108,
+        0
+      ],
+      "threshold": 1847049,
+      "multiplicity": 2,
+      "chernoff_log2": -216.9204517712449,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49821799669226,
+        "tilt": 0.00015785008978060083,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.8044461266958,
+        "relative_truncated_weight_bound_log2": -63.67159920116816,
+        "tilted_mass": 0.9999999999999998,
+        "weighted_tail": 0.020937511230996166
+      }
+    },
+    {
+      "h": [
+        -1113,
+        1108,
+        2216,
+        0
+      ],
+      "primitive_h": [
+        -1113,
+        1108,
+        2216,
+        0
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.7392097144663,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        1113,
+        -1113,
+        0
+      ],
+      "primitive_h": [
+        -1,
+        1,
+        -1,
+        0
+      ],
+      "threshold": 1670,
+      "multiplicity": 1,
+      "chernoff_log2": -218.29671733201468,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.7661701415442,
+        "tilt": 0.1756012286920566,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -209.5049193177544,
+        "relative_truncated_weight_bound_log2": -63.94543916587543,
+        "tilted_mass": 0.9999999999999997,
+        "weighted_tail": 0.02256995246815446
+      }
+    },
+    {
+      "h": [
+        -1113,
+        1113,
+        -1108,
+        0
+      ],
+      "primitive_h": [
+        -1113,
+        1113,
+        -1108,
+        0
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.52427028272305,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.09885129201197,
+        "tilt": 0.00015776582434560385,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.9180729307381,
+        "relative_truncated_weight_bound_log2": -63.674916987009524,
+        "tilted_mass": 0.9999999999999998,
+        "weighted_tail": 0.02098378862978158
+      }
+    },
+    {
+      "h": [
+        -1113,
+        2216,
+        0,
+        -2221
+      ],
+      "primitive_h": [
+        -1113,
+        2216,
+        0,
+        -2221
+      ],
+      "threshold": 5541133,
+      "multiplicity": 1,
+      "chernoff_log2": -635.3170382339243,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        2216,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        -1113,
+        2216,
+        0,
+        1108
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.68028397812304,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1113,
+        2216,
+        0,
+        1113
+      ],
+      "primitive_h": [
+        -1113,
+        2216,
+        0,
+        1113
+      ],
+      "threshold": 3694097,
+      "multiplicity": 1,
+      "chernoff_log2": -454.36545577762735,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        -2216,
+        -1108,
+        0
+      ],
+      "primitive_h": [
+        -1,
+        -2,
+        -1,
+        0
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -418.2151137413392,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        -2216,
+        2221,
+        0
+      ],
+      "primitive_h": [
+        -1108,
+        -2216,
+        2221,
+        0
+      ],
+      "threshold": 5535581,
+      "multiplicity": 1,
+      "chernoff_log2": -662.6275247072742,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        -1113,
+        0,
+        -2221
+      ],
+      "primitive_h": [
+        -1108,
+        -1113,
+        0,
+        -2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.0891289324407,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        -1113,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        -1108,
+        -1113,
+        0,
+        1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.9204416035161,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.4982077887499,
+        "tilt": 0.00015785008233126313,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.804437373912,
+        "relative_truncated_weight_bound_log2": -63.67159597333189,
+        "tilted_mass": 0.9999999999999997,
+        "weighted_tail": 0.020937511814601954
+      }
+    },
+    {
+      "h": [
+        -1108,
+        -1113,
+        0,
+        1113
+      ],
+      "primitive_h": [
+        -1108,
+        -1113,
+        0,
+        1113
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.5665573901376,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.18723085282357,
+        "tilt": 0.00015781976733516366,
+        "fft_length": 2332800,
+        "full_support_length": 45846153,
+        "relative_alias_bound_log2": -199.08462495662718,
+        "relative_truncated_weight_bound_log2": -63.628822867051475,
+        "tilted_mass": 1.0000000000000573,
+        "weighted_tail": 0.02032397686606169
+      }
+    },
+    {
+      "h": [
+        -1108,
+        -1108,
+        0,
+        -2221
+      ],
+      "primitive_h": [
+        -1108,
+        -1108,
+        0,
+        -2221
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.40415747095597,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        -1108,
+        0,
+        -2216
+      ],
+      "primitive_h": [
+        -1,
+        -1,
+        0,
+        -2
+      ],
+      "threshold": 3324,
+      "multiplicity": 1,
+      "chernoff_log2": -453.07833367281665,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        -1108,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        -1,
+        -1,
+        0,
+        1
+      ],
+      "threshold": 1662,
+      "multiplicity": 4,
+      "chernoff_log2": -216.27385863145287,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -221.73583044737066,
+        "tilt": 0.17493132303114567,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -210.1849183835808,
+        "relative_truncated_weight_bound_log2": -63.94048004821142,
+        "tilted_mass": 0.9999999999999711,
+        "weighted_tail": 0.022687291331752422
+      }
+    },
+    {
+      "h": [
+        -1108,
+        -1108,
+        0,
+        1113
+      ],
+      "primitive_h": [
+        -1108,
+        -1108,
+        0,
+        1113
+      ],
+      "threshold": 1847049,
+      "multiplicity": 1,
+      "chernoff_log2": -216.92040648461293,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49820236516368,
+        "tilt": 0.00015785007205207515,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80441917525064,
+        "relative_truncated_weight_bound_log2": -63.67178949801701,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.02093708085751993
+      }
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        -2221,
+        -1113
+      ],
+      "primitive_h": [
+        -1108,
+        0,
+        -2221,
+        -1113
+      ],
+      "threshold": 3699637,
+      "multiplicity": 2,
+      "chernoff_log2": -455.0298176711762,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        -2221,
+        -1108
+      ],
+      "primitive_h": [
+        -1108,
+        0,
+        -2221,
+        -1108
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.40415037524576,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        -2216,
+        -1108
+      ],
+      "primitive_h": [
+        -1,
+        0,
+        -2,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -453.0783266121484,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        1108,
+        -1113
+      ],
+      "primitive_h": [
+        -1108,
+        0,
+        1108,
+        -1113
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.8784219551154,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49262968095684,
+        "tilt": 0.000157796296226306,
+        "fft_length": 2332800,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -199.55512996290855,
+        "relative_truncated_weight_bound_log2": -63.635234088672696,
+        "tilted_mass": 0.9999999999999429,
+        "weighted_tail": 0.020415267396730555
+      }
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        1108,
+        -1108
+      ],
+      "primitive_h": [
+        -1,
+        0,
+        1,
+        -1
+      ],
+      "threshold": 1662,
+      "multiplicity": 3,
+      "chernoff_log2": -216.27386877431255,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -221.73584062029764,
+        "tilt": 0.17493133129057267,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -210.18492757753472,
+        "relative_truncated_weight_bound_log2": -63.94048329499633,
+        "tilted_mass": 0.9999999999999994,
+        "weighted_tail": 0.022687290858889837
+      }
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        1108,
+        2216
+      ],
+      "primitive_h": [
+        -1,
+        0,
+        1,
+        2
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -418.193790031637,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        1108,
+        2221
+      ],
+      "primitive_h": [
+        -1108,
+        0,
+        1108,
+        2221
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -419.39965640264603,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        1113,
+        -1108
+      ],
+      "primitive_h": [
+        -1108,
+        0,
+        1113,
+        -1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.92041665233998,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49821257310577,
+        "tilt": 0.00015785007950141239,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80442792803328,
+        "relative_truncated_weight_bound_log2": -63.67179272586174,
+        "tilted_mass": 1.0000000000000007,
+        "weighted_tail": 0.02093708027389584
+      }
+    },
+    {
+      "h": [
+        -1108,
+        0,
+        1113,
+        2221
+      ],
+      "primitive_h": [
+        -1108,
+        0,
+        1113,
+        2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 2,
+      "chernoff_log2": -419.9195378166506,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        1108,
+        -1113,
+        0
+      ],
+      "primitive_h": [
+        -1108,
+        1108,
+        -1113,
+        0
+      ],
+      "threshold": 1847049,
+      "multiplicity": 1,
+      "chernoff_log2": -216.9204517712449,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.4982179966923,
+        "tilt": 0.00015785008978060083,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80444612669578,
+        "relative_truncated_weight_bound_log2": -63.67159920116813,
+        "tilted_mass": 0.9999999999999428,
+        "weighted_tail": 0.02093751123099566
+      }
+    },
+    {
+      "h": [
+        -1108,
+        1108,
+        -1108,
+        0
+      ],
+      "primitive_h": [
+        -1,
+        1,
+        -1,
+        0
+      ],
+      "threshold": 1662,
+      "multiplicity": 4,
+      "chernoff_log2": -216.27386877431255,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -221.73584062029718,
+        "tilt": 0.17493133129057245,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -210.1849275775343,
+        "relative_truncated_weight_bound_log2": -63.94048329499621,
+        "tilted_mass": 0.9999999999999711,
+        "weighted_tail": 0.022687290858889493
+      }
+    },
+    {
+      "h": [
+        -1108,
+        1108,
+        2221,
+        0
+      ],
+      "primitive_h": [
+        -1108,
+        1108,
+        2221,
+        0
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.37970881313845,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        1113,
+        -1113,
+        0
+      ],
+      "primitive_h": [
+        -1108,
+        1113,
+        -1113,
+        0
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.5242702827233,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.09885129201194,
+        "tilt": 0.00015776582434560385,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.91807293073813,
+        "relative_truncated_weight_bound_log2": -63.67491698700957,
+        "tilted_mass": 1.0000000000000566,
+        "weighted_tail": 0.02098378862978212
+      }
+    },
+    {
+      "h": [
+        -1108,
+        1113,
+        -1108,
+        0
+      ],
+      "primitive_h": [
+        -1108,
+        1113,
+        -1108,
+        0
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.878386847931,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49262189595456,
+        "tilt": 0.0001577962859557278,
+        "fft_length": 2332800,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -199.5551141322925,
+        "relative_truncated_weight_bound_log2": -63.63520225921188,
+        "tilted_mass": 1.0000000000000564,
+        "weighted_tail": 0.020414880770058968
+      }
+    },
+    {
+      "h": [
+        -1108,
+        1113,
+        2221,
+        0
+      ],
+      "primitive_h": [
+        -1108,
+        1113,
+        2221,
+        0
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.00534510979713,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        2216,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        -1,
+        2,
+        0,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -453.0539200121697,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -1108,
+        2216,
+        0,
+        1113
+      ],
+      "primitive_h": [
+        -1108,
+        2216,
+        0,
+        1113
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.7391800645396,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -559,
+        -1667,
+        554,
+        -554
+      ],
+      "primitive_h": [
+        -559,
+        -1667,
+        554,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.8269384403928,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.37985776941514,
+        "tilt": 0.00017254166288405254,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.0492572758968,
+        "relative_truncated_weight_bound_log2": -63.6965225075441,
+        "tilted_mass": 1.000000000000001,
+        "weighted_tail": 0.02130123180349707
+      }
+    },
+    {
+      "h": [
+        -559,
+        -1662,
+        554,
+        -554
+      ],
+      "primitive_h": [
+        -559,
+        -1662,
+        554,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7607572981458,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.30922739243908,
+        "tilt": 0.00017255222554546688,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6945835056044,
+        "relative_truncated_weight_bound_log2": -63.70097907288832,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.02136702566051239
+      }
+    },
+    {
+      "h": [
+        -559,
+        -559,
+        -1667,
+        554
+      ],
+      "primitive_h": [
+        -559,
+        -559,
+        -1667,
+        554
+      ],
+      "threshold": 1855384,
+      "multiplicity": 1,
+      "chernoff_log2": -230.09126246293295,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.64454786495793,
+        "tilt": 0.0001724336792255515,
+        "fft_length": 2073600,
+        "full_support_length": 34603173,
+        "relative_alias_bound_log2": -161.85764364651516,
+        "relative_truncated_weight_bound_log2": -63.69610313315292,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.021295827462029723
+      }
+    },
+    {
+      "h": [
+        -559,
+        -559,
+        1662,
+        554
+      ],
+      "primitive_h": [
+        -559,
+        -559,
+        1662,
+        554
+      ],
+      "threshold": 1847061,
+      "multiplicity": 1,
+      "chernoff_log2": -229.05865584300543,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.60775253885186,
+        "tilt": 0.0001725086056571817,
+        "fft_length": 2073600,
+        "full_support_length": 34449033,
+        "relative_alias_bound_log2": -162.56665372896092,
+        "relative_truncated_weight_bound_log2": -63.7002681497523,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.021357747397271865
+      },
+      "check": {
+        "log2_tail": -234.6077525388519,
+        "tilt": 0.0001621580893177508,
+        "fft_length": 4665600,
+        "full_support_length": 34449033,
+        "relative_alias_bound_log2": -478.61269681183654,
+        "relative_truncated_weight_bound_log2": -62.80741891187766,
+        "tilted_mass": 0.9999999999999426,
+        "weighted_tail": 0.011501171655066603
+      }
+    },
+    {
+      "h": [
+        -559,
+        -554,
+        -1667,
+        554
+      ],
+      "primitive_h": [
+        -559,
+        -554,
+        -1667,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.79637083133264,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.3473618031297,
+        "tilt": 0.00017249634649081484,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.0086016855356,
+        "relative_truncated_weight_bound_log2": -63.698429923464815,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.02132972282024671
+      }
+    },
+    {
+      "h": [
+        -559,
+        -554,
+        1662,
+        554
+      ],
+      "primitive_h": [
+        -559,
+        -554,
+        1662,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.71749018072458,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26641441969414,
+        "tilt": 0.0001725024753487419,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6511589059062,
+        "relative_truncated_weight_bound_log2": -63.70046842874535,
+        "tilted_mass": 0.9999999999999718,
+        "weighted_tail": 0.02136030061224442
+      }
+    },
+    {
+      "h": [
+        -559,
+        554,
+        -559,
+        -1667
+      ],
+      "primitive_h": [
+        -559,
+        554,
+        -559,
+        -1667
+      ],
+      "threshold": 1855384,
+      "multiplicity": 1,
+      "chernoff_log2": -230.12241429568672,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.67630409639952,
+        "tilt": 0.00017247976786466274,
+        "fft_length": 2073600,
+        "full_support_length": 34551973,
+        "relative_alias_bound_log2": -161.9003837491822,
+        "relative_truncated_weight_bound_log2": -63.69559409584256,
+        "tilted_mass": 0.9999999999999993,
+        "weighted_tail": 0.021286907715245985
+      }
+    },
+    {
+      "h": [
+        -559,
+        554,
+        -559,
+        1662
+      ],
+      "primitive_h": [
+        -559,
+        554,
+        -559,
+        1662
+      ],
+      "threshold": 1847061,
+      "multiplicity": 1,
+      "chernoff_log2": -229.043385861579,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.592585117147,
+        "tilt": 0.00017248585538061614,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.545063761434,
+        "relative_truncated_weight_bound_log2": -63.70024029342306,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021356229150725752
+      }
+    },
+    {
+      "h": [
+        -559,
+        554,
+        -554,
+        -1662
+      ],
+      "primitive_h": [
+        -559,
+        554,
+        -554,
+        -1662
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.71479833091382,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26337319162076,
+        "tilt": 0.00017248372835042362,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.62996415327967,
+        "relative_truncated_weight_bound_log2": -63.70100609612055,
+        "tilted_mass": 0.9999999999999433,
+        "weighted_tail": 0.021365474074554445
+      }
+    },
+    {
+      "h": [
+        -559,
+        554,
+        -554,
+        1667
+      ],
+      "primitive_h": [
+        -559,
+        554,
+        -554,
+        1667
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.81411697070683,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.3669916299044,
+        "tilt": 0.0001725373362857198,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04901506525093,
+        "relative_truncated_weight_bound_log2": -63.696573132319806,
+        "tilted_mass": 1.0000000000000004,
+        "weighted_tail": 0.021301891358702377
+      }
+    },
+    {
+      "h": [
+        -559,
+        1662,
+        554,
+        -554
+      ],
+      "primitive_h": [
+        -559,
+        1662,
+        554,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.70201884325388,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.2505492452537,
+        "tilt": 0.00017247939651358576,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.62972102763837,
+        "relative_truncated_weight_bound_log2": -63.70105323472816,
+        "tilted_mass": 1.0000000000000568,
+        "weighted_tail": 0.02136613249227773
+      }
+    },
+    {
+      "h": [
+        -559,
+        1667,
+        554,
+        -554
+      ],
+      "primitive_h": [
+        -559,
+        1667,
+        554,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.7680041379779,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.31835526158753,
+        "tilt": 0.00017246894214351975,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.9872641862343,
+        "relative_truncated_weight_bound_log2": -63.699016259129074,
+        "tilted_mass": 0.9999999999999717,
+        "weighted_tail": 0.02133918484167152
+      }
+    },
+    {
+      "h": [
+        -559,
+        2770,
+        1662,
+        554
+      ],
+      "primitive_h": [
+        -559,
+        2770,
+        1662,
+        554
+      ],
+      "threshold": 5527271,
+      "multiplicity": 1,
+      "chernoff_log2": -643.1866017116084,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -554,
+        -2770,
+        -554,
+        -1667
+      ],
+      "primitive_h": [
+        -554,
+        -2770,
+        -554,
+        -1667
+      ],
+      "threshold": 5532811,
+      "multiplicity": 1,
+      "chernoff_log2": -658.0080806169295,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -554,
+        -2770,
+        -554,
+        1667
+      ],
+      "primitive_h": [
+        -554,
+        -2770,
+        -554,
+        1667
+      ],
+      "threshold": 5532811,
+      "multiplicity": 1,
+      "chernoff_log2": -657.9966913836186,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -554,
+        -1667,
+        554,
+        -559
+      ],
+      "primitive_h": [
+        -554,
+        -1667,
+        554,
+        -559
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.79637398692822,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.34736496591088,
+        "tilt": 0.00017249634919865492,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.00860285846028,
+        "relative_truncated_weight_bound_log2": -63.69843100335335,
+        "tilted_mass": 0.9999999999999717,
+        "weighted_tail": 0.02132972271400683
+      }
+    },
+    {
+      "h": [
+        -554,
+        -1667,
+        554,
+        -554
+      ],
+      "primitive_h": [
+        -554,
+        -1667,
+        554,
+        -554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.48582847801532,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.02392993814368,
+        "tilt": 0.00017253566816829004,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14794285761965,
+        "relative_truncated_weight_bound_log2": -63.71142356616634,
+        "tilted_mass": 0.9999999999999721,
+        "weighted_tail": 0.021521143408337988
+      }
+    },
+    {
+      "h": [
+        -554,
+        -1667,
+        559,
+        -554
+      ],
+      "primitive_h": [
+        -554,
+        -1667,
+        559,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.7807819428121,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.33117587625586,
+        "tilt": 0.0001724732504607281,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.9873785027053,
+        "relative_truncated_weight_bound_log2": -63.699210357952545,
+        "tilted_mass": 0.9999999999999996,
+        "weighted_tail": 0.021338551642432348
+      }
+    },
+    {
+      "h": [
+        -554,
+        -1662,
+        554,
+        -559
+      ],
+      "primitive_h": [
+        -554,
+        -1662,
+        554,
+        -559
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7302745003142,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.27924334259694,
+        "tilt": 0.00017250681163181867,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.65140418494826,
+        "relative_truncated_weight_bound_log2": -63.70042245983241,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021359640233278358
+      }
+    },
+    {
+      "h": [
+        -554,
+        -1662,
+        554,
+        -554
+      ],
+      "primitive_h": [
+        -1,
+        -3,
+        1,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.41937373271543,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.89821448479304,
+        "tilt": 0.09559054461525109,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.2890456916417,
+        "relative_truncated_weight_bound_log2": -63.888885598088876,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.02242356150477373
+      }
+    },
+    {
+      "h": [
+        -554,
+        -1662,
+        559,
+        -554
+      ],
+      "primitive_h": [
+        -554,
+        -1662,
+        559,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.71475965474667,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26333361225895,
+        "tilt": 0.00017248371510283878,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.62996679932584,
+        "relative_truncated_weight_bound_log2": -63.70100168061268,
+        "tilted_mass": 1.0000000000000004,
+        "weighted_tail": 0.021365487450350797
+      }
+    },
+    {
+      "h": [
+        -554,
+        -559,
+        -1667,
+        554
+      ],
+      "primitive_h": [
+        -554,
+        -559,
+        -1667,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.78081743363265,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.3312131005684,
+        "tilt": 0.00017247326090834959,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.98737383824644,
+        "relative_truncated_weight_bound_log2": -63.69921281927671,
+        "tilted_mass": 0.9999999999999146,
+        "weighted_tail": 0.021338526002782875
+      }
+    },
+    {
+      "h": [
+        -554,
+        -559,
+        -1662,
+        554
+      ],
+      "primitive_h": [
+        -554,
+        -559,
+        -1662,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.71479515108203,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26337000466552,
+        "tilt": 0.00017248372561065681,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.62996296656527,
+        "relative_truncated_weight_bound_log2": -63.70100500327002,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.021365474180056174
+      }
+    },
+    {
+      "h": [
+        -554,
+        -559,
+        1662,
+        554
+      ],
+      "primitive_h": [
+        -554,
+        -559,
+        1662,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.74796972876157,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.29639498202388,
+        "tilt": 0.00017254788591532894,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.69433630700985,
+        "relative_truncated_weight_bound_log2": -63.70102485153956,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.021367689788642126
+      },
+      "check": {
+        "log2_tail": -234.2963949820241,
+        "tilt": 0.0001621950127604092,
+        "fft_length": 4665600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -478.7644748946608,
+        "relative_truncated_weight_bound_log2": -62.80961181788549,
+        "tilted_mass": 1.0000000000000573,
+        "weighted_tail": 0.01151794612124116
+      }
+    },
+    {
+      "h": [
+        -554,
+        -559,
+        1667,
+        554
+      ],
+      "primitive_h": [
+        -554,
+        -559,
+        1667,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.8141138700304,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.36698852485873,
+        "tilt": 0.00017253733362345385,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04901390921003,
+        "relative_truncated_weight_bound_log2": -63.69657206816458,
+        "tilted_mass": 1.0000000000000568,
+        "weighted_tail": 0.02130189142322261
+      }
+    },
+    {
+      "h": [
+        -554,
+        -554,
+        -1667,
+        554
+      ],
+      "primitive_h": [
+        -554,
+        -554,
+        -1667,
+        554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.4858253500727,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.0239268032265,
+        "tilt": 0.0001725356654798029,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14794169508284,
+        "relative_truncated_weight_bound_log2": -63.711422494079955,
+        "tilted_mass": 0.9999999999999429,
+        "weighted_tail": 0.02152114351237607
+      }
+    },
+    {
+      "h": [
+        -554,
+        -554,
+        -1662,
+        -2775
+      ],
+      "primitive_h": [
+        -554,
+        -554,
+        -1662,
+        -2775
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -644.3372378291531,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -554,
+        -554,
+        -1662,
+        554
+      ],
+      "primitive_h": [
+        -1,
+        -1,
+        -3,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.4193706077818,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.89821135485997,
+        "tilt": 0.09559054312077918,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.2890445233081,
+        "relative_truncated_weight_bound_log2": -63.888884518587126,
+        "tilted_mass": 0.9999999999999715,
+        "weighted_tail": 0.022423561582488677
+      }
+    },
+    {
+      "h": [
+        -554,
+        -554,
+        -1662,
+        559
+      ],
+      "primitive_h": [
+        -554,
+        -554,
+        -1662,
+        559
+      ],
+      "threshold": 1844279,
+      "multiplicity": 2,
+      "chernoff_log2": -228.76071550871555,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.30918613407366,
+        "tilt": 0.00017255220961057778,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.69458354301062,
+        "relative_truncated_weight_bound_log2": -63.70097214676091,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.02136701779518269
+      }
+    },
+    {
+      "h": [
+        -554,
+        -554,
+        1662,
+        554
+      ],
+      "primitive_h": [
+        -1,
+        -1,
+        3,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.4065865816514,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.88538426190763,
+        "tilt": 0.09558813733658594,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28969754107433,
+        "relative_truncated_weight_bound_log2": -63.88718176650736,
+        "tilted_mass": 0.9999999999999716,
+        "weighted_tail": 0.02242423097270024
+      }
+    },
+    {
+      "h": [
+        -554,
+        -554,
+        1667,
+        554
+      ],
+      "primitive_h": [
+        -554,
+        -554,
+        1667,
+        554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.47300431822595,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.01106259331422,
+        "tilt": 0.00017253133331428318,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14769862267974,
+        "relative_truncated_weight_bound_log2": -63.71146926958748,
+        "tilted_mass": 0.9999999999999717,
+        "weighted_tail": 0.02152178762302927
+      }
+    },
+    {
+      "h": [
+        -554,
+        -554,
+        1667,
+        559
+      ],
+      "primitive_h": [
+        -554,
+        -554,
+        1667,
+        559
+      ],
+      "threshold": 1852601,
+      "multiplicity": 2,
+      "chernoff_log2": -229.76796228228307,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.31831165675356,
+        "tilt": 0.00017246892623455165,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.98713827239416,
+        "relative_truncated_weight_bound_log2": -63.6992604405978,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.021339210713553425
+      }
+    },
+    {
+      "h": [
+        -554,
+        554,
+        -559,
+        -1667
+      ],
+      "primitive_h": [
+        -554,
+        554,
+        -559,
+        -1667
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.8269384403928,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.37985776941514,
+        "tilt": 0.00017254166288405254,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04925727589662,
+        "relative_truncated_weight_bound_log2": -63.69652250754413,
+        "tilted_mass": 1.000000000000001,
+        "weighted_tail": 0.0213012318034974
+      }
+    },
+    {
+      "h": [
+        -554,
+        554,
+        -559,
+        1662
+      ],
+      "primitive_h": [
+        -554,
+        554,
+        -559,
+        1662
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.70201884325354,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.25054924525372,
+        "tilt": 0.00017247939651358579,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.6297210276382,
+        "relative_truncated_weight_bound_log2": -63.70105323472817,
+        "tilted_mass": 1.0000000000000568,
+        "weighted_tail": 0.021366132492277947
+      }
+    },
+    {
+      "h": [
+        -554,
+        554,
+        -554,
+        -1667
+      ],
+      "primitive_h": [
+        -554,
+        554,
+        -554,
+        -1667
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.4858284780154,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.02392993814354,
+        "tilt": 0.0001725356681682901,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.1479428576198,
+        "relative_truncated_weight_bound_log2": -63.71142356616633,
+        "tilted_mass": 0.9999999999999721,
+        "weighted_tail": 0.021521143408337707
+      }
+    },
+    {
+      "h": [
+        -554,
+        554,
+        -554,
+        -1662
+      ],
+      "primitive_h": [
+        -1,
+        1,
+        -1,
+        -3
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.4193737327156,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.89821448479304,
+        "tilt": 0.0955905446152511,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28904569164177,
+        "relative_truncated_weight_bound_log2": -63.88888559808895,
+        "tilted_mass": 1.0000000000000564,
+        "weighted_tail": 0.02242356150477459
+      }
+    },
+    {
+      "h": [
+        -554,
+        554,
+        -554,
+        1662
+      ],
+      "primitive_h": [
+        -1,
+        1,
+        -1,
+        3
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.40658970638884,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.8853873916455,
+        "tilt": 0.09558813883100485,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.2896987093758,
+        "relative_truncated_weight_bound_log2": -63.88718284597048,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.02242423089498046
+      }
+    },
+    {
+      "h": [
+        -554,
+        554,
+        -554,
+        1667
+      ],
+      "primitive_h": [
+        -554,
+        554,
+        -554,
+        1667
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.47300744597268,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.01106572803943,
+        "tilt": 0.0001725313360026753,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14769978518055,
+        "relative_truncated_weight_bound_log2": -63.711470341659016,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021521787518930517
+      }
+    },
+    {
+      "h": [
+        -554,
+        554,
+        2775,
+        -1662
+      ],
+      "primitive_h": [
+        -554,
+        554,
+        2775,
+        -1662
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -644.3155322722937,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -554,
+        554,
+        2775,
+        1662
+      ],
+      "primitive_h": [
+        -554,
+        554,
+        2775,
+        1662
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -612.0298047614228,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -554,
+        559,
+        -554,
+        -1667
+      ],
+      "primitive_h": [
+        -554,
+        559,
+        -554,
+        -1667
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.79633530795235,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.3473217952249,
+        "tilt": 0.00017249633601507992,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.0086090877363,
+        "relative_truncated_weight_bound_log2": -63.69843020245943,
+        "tilted_mass": 0.9999999999999439,
+        "weighted_tail": 0.021329789122420856
+      }
+    },
+    {
+      "h": [
+        -554,
+        559,
+        -554,
+        -1662
+      ],
+      "primitive_h": [
+        -554,
+        559,
+        -554,
+        -1662
+      ],
+      "threshold": 1844279,
+      "multiplicity": 2,
+      "chernoff_log2": -228.73023581901046,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.2792041376799,
+        "tilt": 0.00017250679837889246,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6514064479958,
+        "relative_truncated_weight_bound_log2": -63.70041766332532,
+        "tilted_mass": 0.9999999999999153,
+        "weighted_tail": 0.021359647985576442
+      }
+    },
+    {
+      "h": [
+        -554,
+        559,
+        -554,
+        1662
+      ],
+      "primitive_h": [
+        -554,
+        559,
+        -554,
+        1662
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.71745465275046,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26637837497861,
+        "tilt": 0.00017250246481255425,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.65116234594586,
+        "relative_truncated_weight_bound_log2": -63.70046471583911,
+        "tilted_mass": 0.9999999999998866,
+        "weighted_tail": 0.021360308263024222
+      }
+    },
+    {
+      "h": [
+        -554,
+        559,
+        -554,
+        1667
+      ],
+      "primitive_h": [
+        -554,
+        559,
+        -554,
+        1667
+      ],
+      "threshold": 1852601,
+      "multiplicity": 2,
+      "chernoff_log2": -229.7835171457045,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.3344590833053,
+        "tilt": 0.00017249201279388618,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.00836892560835,
+        "relative_truncated_weight_bound_log2": -63.69848114947016,
+        "tilted_mass": 0.9999999999999715,
+        "weighted_tail": 0.021330447785370046
+      },
+      "check": {
+        "log2_tail": -235.33445908330546,
+        "tilt": 0.00016214249202625299,
+        "fft_length": 4665600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -477.05120499654726,
+        "relative_truncated_weight_bound_log2": -62.80212832470823,
+        "tilted_mass": 0.9999999999999428,
+        "weighted_tail": 0.011459953926848383
+      }
+    },
+    {
+      "h": [
+        -554,
+        1662,
+        -2775,
+        -554
+      ],
+      "primitive_h": [
+        -554,
+        1662,
+        -2775,
+        -554
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -644.3263226474859,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        -554,
+        1662,
+        554,
+        -559
+      ],
+      "primitive_h": [
+        -554,
+        1662,
+        554,
+        -559
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7174933330898,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26641757836046,
+        "tilt": 0.00017250247806564718,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6511600835395,
+        "relative_truncated_weight_bound_log2": -63.70046951311864,
+        "tilted_mass": 0.9999999999999998,
+        "weighted_tail": 0.0213603005189508
+      }
+    },
+    {
+      "h": [
+        -554,
+        1662,
+        554,
+        -554
+      ],
+      "primitive_h": [
+        -1,
+        3,
+        1,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.40658970638884,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.88538739164565,
+        "tilt": 0.0955881388310048,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.2896987093756,
+        "relative_truncated_weight_bound_log2": -63.887182845970415,
+        "tilted_mass": 1.0000000000000566,
+        "weighted_tail": 0.022424230894979934
+      }
+    },
+    {
+      "h": [
+        -554,
+        1662,
+        559,
+        -554
+      ],
+      "primitive_h": [
+        -554,
+        1662,
+        559,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.74793413614444,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.29635993369257,
+        "tilt": 0.00017254787532314648,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6943386596624,
+        "relative_truncated_weight_bound_log2": -63.701020056243486,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021367681727249562
+      }
+    },
+    {
+      "h": [
+        -554,
+        1667,
+        554,
+        -559
+      ],
+      "primitive_h": [
+        -554,
+        1667,
+        554,
+        -559
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.78355582371816,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.33450225296164,
+        "tilt": 0.0001724920259776273,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.00836269646973,
+        "relative_truncated_weight_bound_log2": -63.6984819506316,
+        "tilted_mass": 1.000000000000057,
+        "weighted_tail": 0.021330381375906027
+      }
+    },
+    {
+      "h": [
+        -554,
+        1667,
+        554,
+        -554
+      ],
+      "primitive_h": [
+        -554,
+        1667,
+        554,
+        -554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.47300744597237,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.0110657280392,
+        "tilt": 0.00017253133600267525,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14769978518095,
+        "relative_truncated_weight_bound_log2": -63.711470341659044,
+        "tilted_mass": 1.0000000000000575,
+        "weighted_tail": 0.021521787518931065
+      }
+    },
+    {
+      "h": [
+        -554,
+        1667,
+        559,
+        -554
+      ],
+      "primitive_h": [
+        -554,
+        1667,
+        559,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.81407828261058,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.36695155950525,
+        "tilt": 0.0001725373230915759,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04901817841574,
+        "relative_truncated_weight_bound_log2": -63.696569219031545,
+        "tilted_mass": 0.9999999999999147,
+        "weighted_tail": 0.021301911768891454
+      }
+    },
+    {
+      "h": [
+        -554,
+        2770,
+        -1667,
+        554
+      ],
+      "primitive_h": [
+        -554,
+        2770,
+        -1667,
+        554
+      ],
+      "threshold": 5532811,
+      "multiplicity": 1,
+      "chernoff_log2": -611.3138598559807,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -2221,
+        1108,
+        1113
+      ],
+      "primitive_h": [
+        0,
+        -2221,
+        1108,
+        1113
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.07270118550605,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -2221,
+        1113,
+        1108
+      ],
+      "primitive_h": [
+        0,
+        -2221,
+        1113,
+        1108
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.0134011244382,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -2216,
+        -2216,
+        1113
+      ],
+      "primitive_h": [
+        0,
+        -2216,
+        -2216,
+        1113
+      ],
+      "threshold": 5530041,
+      "multiplicity": 1,
+      "chernoff_log2": -662.171784090085,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -2216,
+        1108,
+        -2221
+      ],
+      "primitive_h": [
+        0,
+        -2216,
+        1108,
+        -2221
+      ],
+      "threshold": 5535581,
+      "multiplicity": 1,
+      "chernoff_log2": -634.9859936000928,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -2216,
+        1108,
+        1108
+      ],
+      "primitive_h": [
+        0,
+        -2,
+        1,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -453.06193759704934,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -2216,
+        1113,
+        1113
+      ],
+      "primitive_h": [
+        0,
+        -2216,
+        1113,
+        1113
+      ],
+      "threshold": 3694097,
+      "multiplicity": 2,
+      "chernoff_log2": -454.37343499236624,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1113,
+        -1113,
+        -1113
+      ],
+      "primitive_h": [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "threshold": 1670,
+      "multiplicity": 2,
+      "chernoff_log2": -218.30458218178953,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.7740639480744,
+        "tilt": 0.1756037985320148,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -209.50224850558538,
+        "relative_truncated_weight_bound_log2": -63.94642606285166,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.02256949946459507
+      }
+    },
+    {
+      "h": [
+        0,
+        -1113,
+        -1113,
+        2216
+      ],
+      "primitive_h": [
+        0,
+        -1113,
+        -1113,
+        2216
+      ],
+      "threshold": 3694097,
+      "multiplicity": 1,
+      "chernoff_log2": -454.3736885993865,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1113,
+        -1108,
+        -1108
+      ],
+      "primitive_h": [
+        0,
+        -1113,
+        -1108,
+        -1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 4,
+      "chernoff_log2": -216.92828539577056,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.50609166697495,
+        "tilt": 0.00015785240851392572,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80187501542434,
+        "relative_truncated_weight_bound_log2": -63.67166545997365,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.020936930063925833
+      }
+    },
+    {
+      "h": [
+        0,
+        -1113,
+        -1108,
+        2221
+      ],
+      "primitive_h": [
+        0,
+        -1113,
+        -1108,
+        2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 2,
+      "chernoff_log2": -455.0728825017671,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1113,
+        2216,
+        -1113
+      ],
+      "primitive_h": [
+        0,
+        -1113,
+        2216,
+        -1113
+      ],
+      "threshold": 3694097,
+      "multiplicity": 1,
+      "chernoff_log2": -419.2420758559395,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1113,
+        2221,
+        -1108
+      ],
+      "primitive_h": [
+        0,
+        -1113,
+        2221,
+        -1108
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -419.926733233772,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        -1113,
+        -1108
+      ],
+      "primitive_h": [
+        0,
+        -1108,
+        -1113,
+        -1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 2,
+      "chernoff_log2": -216.88625291249144,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.50050207467183,
+        "tilt": 0.00015779861297550812,
+        "fft_length": 2332800,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -199.55255846011235,
+        "relative_truncated_weight_bound_log2": -63.63529874450263,
+        "tilted_mass": 0.9999999999999428,
+        "weighted_tail": 0.020414681048422843
+      }
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        -1113,
+        2221
+      ],
+      "primitive_h": [
+        0,
+        -1108,
+        -1113,
+        2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.01358231811867,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        -1108,
+        -1113
+      ],
+      "primitive_h": [
+        0,
+        -1108,
+        -1108,
+        -1113
+      ],
+      "threshold": 1847049,
+      "multiplicity": 2,
+      "chernoff_log2": -216.9282853957707,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.506091666975,
+        "tilt": 0.00015785240851392575,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.8018750154241,
+        "relative_truncated_weight_bound_log2": -63.67166545997358,
+        "tilted_mass": 0.9999999999999429,
+        "weighted_tail": 0.02093693006392459
+      }
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        -1108,
+        -1108
+      ],
+      "primitive_h": [
+        0,
+        -1,
+        -1,
+        -1
+      ],
+      "threshold": 1662,
+      "multiplicity": 4,
+      "chernoff_log2": -216.28170391159148,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -221.743704861365,
+        "tilt": 0.1749339102390463,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -210.18224435220807,
+        "relative_truncated_weight_bound_log2": -63.941477366157734,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.022686833188081287
+      }
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        -1108,
+        2216
+      ],
+      "primitive_h": [
+        0,
+        -1,
+        -1,
+        2
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -453.062117962302,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        -1108,
+        2221
+      ],
+      "primitive_h": [
+        0,
+        -1108,
+        -1108,
+        2221
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.3879112502582,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        2216,
+        -1108
+      ],
+      "primitive_h": [
+        0,
+        -1,
+        2,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -418.20095892662573,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        2221,
+        -1113
+      ],
+      "primitive_h": [
+        0,
+        -1108,
+        2221,
+        -1113
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -419.9267332337718,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        -1108,
+        2221,
+        -1108
+      ],
+      "primitive_h": [
+        0,
+        -1108,
+        2221,
+        -1108
+      ],
+      "threshold": 3694085,
+      "multiplicity": 2,
+      "chernoff_log2": -419.4068228235977,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        0,
+        -3329,
+        0
+      ],
+      "primitive_h": [
+        0,
+        0,
+        -1,
+        0
+      ],
+      "threshold": 1665,
+      "multiplicity": 1,
+      "chernoff_log2": -690.6947447472044,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        0,
+        0,
+        -3329
+      ],
+      "primitive_h": [
+        0,
+        0,
+        0,
+        -1
+      ],
+      "threshold": 1665,
+      "multiplicity": 1,
+      "chernoff_log2": -690.6947447472044,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        0,
+        0,
+        3329
+      ],
+      "primitive_h": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "threshold": 1665,
+      "multiplicity": 1,
+      "chernoff_log2": -690.6712457288875,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        0,
+        3329,
+        0
+      ],
+      "primitive_h": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "threshold": 1665,
+      "multiplicity": 1,
+      "chernoff_log2": -690.6712457288875,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1108,
+        -2221,
+        1108
+      ],
+      "primitive_h": [
+        0,
+        1108,
+        -2221,
+        1108
+      ],
+      "threshold": 3694085,
+      "multiplicity": 2,
+      "chernoff_log2": -419.4067298571842,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1108,
+        -2221,
+        1113
+      ],
+      "primitive_h": [
+        0,
+        1108,
+        -2221,
+        1113
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -419.926608377561,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1108,
+        -2216,
+        1108
+      ],
+      "primitive_h": [
+        0,
+        1,
+        -2,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -418.2008345612003,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1108,
+        1108,
+        -2221
+      ],
+      "primitive_h": [
+        0,
+        1108,
+        1108,
+        -2221
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.3877666119459,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1108,
+        1108,
+        -2216
+      ],
+      "primitive_h": [
+        0,
+        1,
+        1,
+        -2
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -453.0619375970498,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1108,
+        1108,
+        1108
+      ],
+      "primitive_h": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "threshold": 1662,
+      "multiplicity": 4,
+      "chernoff_log2": -216.25816841656,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -221.72008196302986,
+        "tilt": 0.1749261485077816,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -210.1902665941966,
+        "relative_truncated_weight_bound_log2": -63.93848537138069,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.022688207674159116
+      }
+    },
+    {
+      "h": [
+        0,
+        1108,
+        1108,
+        1113
+      ],
+      "primitive_h": [
+        0,
+        1108,
+        1108,
+        1113
+      ],
+      "threshold": 1847049,
+      "multiplicity": 2,
+      "chernoff_log2": -216.90471924519457,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.4824349499888,
+        "tilt": 0.0001578454195899301,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80954403550393,
+        "relative_truncated_weight_bound_log2": -63.67165039869927,
+        "tilted_mass": 0.9999999999999996,
+        "weighted_tail": 0.020938244438801604
+      },
+      "check": {
+        "log2_tail": -222.48243494998889,
+        "tilt": 0.00014837469441453428,
+        "fft_length": 5184000,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -749.5100657819685,
+        "relative_truncated_weight_bound_log2": -62.737867172816436,
+        "tilted_mass": 1.000000000000029,
+        "weighted_tail": 0.010959724374546724
+      }
+    },
+    {
+      "h": [
+        0,
+        1108,
+        1113,
+        -2221
+      ],
+      "primitive_h": [
+        0,
+        1108,
+        1113,
+        -2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.0134011244382,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1108,
+        1113,
+        1108
+      ],
+      "primitive_h": [
+        0,
+        1108,
+        1113,
+        1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 2,
+      "chernoff_log2": -216.86269473030387,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.4768468241109,
+        "tilt": 0.00015779162999286092,
+        "fft_length": 2332800,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -199.5602310367865,
+        "relative_truncated_weight_bound_log2": -63.63529073509196,
+        "tilted_mass": 1.0000000000000284,
+        "weighted_tail": 0.020416054648863577
+      }
+    },
+    {
+      "h": [
+        0,
+        1113,
+        -2221,
+        1108
+      ],
+      "primitive_h": [
+        0,
+        1113,
+        -2221,
+        1108
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -419.926608377561,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1113,
+        -2216,
+        1113
+      ],
+      "primitive_h": [
+        0,
+        1113,
+        -2216,
+        1113
+      ],
+      "threshold": 3694097,
+      "multiplicity": 1,
+      "chernoff_log2": -419.24188774038964,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1113,
+        1108,
+        -2221
+      ],
+      "primitive_h": [
+        0,
+        1113,
+        1108,
+        -2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 2,
+      "chernoff_log2": -455.07270118550605,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1113,
+        1108,
+        1108
+      ],
+      "primitive_h": [
+        0,
+        1113,
+        1108,
+        1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 4,
+      "chernoff_log2": -216.90471924519457,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.48243494998871,
+        "tilt": 0.0001578454195899301,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80954403550427,
+        "relative_truncated_weight_bound_log2": -63.67165039869937,
+        "tilted_mass": 1.0000000000000562,
+        "weighted_tail": 0.020938244438803023
+      }
+    },
+    {
+      "h": [
+        0,
+        1113,
+        1113,
+        -2216
+      ],
+      "primitive_h": [
+        0,
+        1113,
+        1113,
+        -2216
+      ],
+      "threshold": 3694097,
+      "multiplicity": 1,
+      "chernoff_log2": -454.3734349923664,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        1113,
+        1113,
+        1113
+      ],
+      "primitive_h": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "threshold": 1670,
+      "multiplicity": 2,
+      "chernoff_log2": -218.28095726153603,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.75035206566312,
+        "tilt": 0.175596064037506,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -209.51023360673253,
+        "relative_truncated_weight_bound_log2": -63.943455591387455,
+        "tilted_mass": 0.9999999999999996,
+        "weighted_tail": 0.02257085994029588
+      }
+    },
+    {
+      "h": [
+        0,
+        2216,
+        -1113,
+        -1113
+      ],
+      "primitive_h": [
+        0,
+        2216,
+        -1113,
+        -1113
+      ],
+      "threshold": 3694097,
+      "multiplicity": 2,
+      "chernoff_log2": -454.3736885993865,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        2216,
+        -1108,
+        -1108
+      ],
+      "primitive_h": [
+        0,
+        2,
+        -1,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -453.062117962302,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        2216,
+        -1108,
+        2221
+      ],
+      "primitive_h": [
+        0,
+        2216,
+        -1108,
+        2221
+      ],
+      "threshold": 5535581,
+      "multiplicity": 1,
+      "chernoff_log2": -634.9646499843079,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        2216,
+        2216,
+        -1113
+      ],
+      "primitive_h": [
+        0,
+        2216,
+        2216,
+        -1113
+      ],
+      "threshold": 5530041,
+      "multiplicity": 1,
+      "chernoff_log2": -662.1489322462626,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        2221,
+        -1113,
+        -1108
+      ],
+      "primitive_h": [
+        0,
+        2221,
+        -1113,
+        -1108
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.01358231811867,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        0,
+        2221,
+        -1108,
+        -1113
+      ],
+      "primitive_h": [
+        0,
+        2221,
+        -1108,
+        -1113
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.0728825017671,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        554,
+        -2770,
+        1667,
+        -554
+      ],
+      "primitive_h": [
+        554,
+        -2770,
+        1667,
+        -554
+      ],
+      "threshold": 5532811,
+      "multiplicity": 1,
+      "chernoff_log2": -611.320390341354,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        554,
+        -1667,
+        -559,
+        554
+      ],
+      "primitive_h": [
+        554,
+        -1667,
+        -559,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.82263863757817,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.375543432419,
+        "tilt": 0.00017254018974327374,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.0490743851542,
+        "relative_truncated_weight_bound_log2": -63.696692566622175,
+        "tilted_mass": 0.9999999999999147,
+        "weighted_tail": 0.021301446400154352
+      }
+    },
+    {
+      "h": [
+        554,
+        -1667,
+        -554,
+        554
+      ],
+      "primitive_h": [
+        554,
+        -1667,
+        -554,
+        554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.4815288241667,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.0196142085201,
+        "tilt": 0.00017253419313411917,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.1478899372991,
+        "relative_truncated_weight_bound_log2": -63.71134544546717,
+        "tilted_mass": 0.9999999999999435,
+        "weighted_tail": 0.021521383217145966
+      }
+    },
+    {
+      "h": [
+        554,
+        -1667,
+        -554,
+        559
+      ],
+      "primitive_h": [
+        554,
+        -1667,
+        -554,
+        559
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.79203663129604,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.34300966063913,
+        "tilt": 0.0001724948640405244,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.0084258622685,
+        "relative_truncated_weight_bound_log2": -63.698599302150804,
+        "tilted_mass": 1.0000000000000004,
+        "weighted_tail": 0.02132998809457171
+      }
+    },
+    {
+      "h": [
+        554,
+        -1662,
+        -559,
+        554
+      ],
+      "primitive_h": [
+        554,
+        -1662,
+        -559,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7564572329923,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.3049122769714,
+        "tilt": 0.00017255074465184354,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.69440014362735,
+        "relative_truncated_weight_bound_log2": -63.701146618504566,
+        "tilted_mass": 0.9999999999999718,
+        "weighted_tail": 0.021367248564260612
+      }
+    },
+    {
+      "h": [
+        554,
+        -1662,
+        -554,
+        554
+      ],
+      "primitive_h": [
+        1,
+        -3,
+        -1,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.41507381954446,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.89390012533454,
+        "tilt": 0.09558972313978585,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28924773969692,
+        "relative_truncated_weight_bound_log2": -63.88830391967109,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.022423786042072305
+      },
+      "check": {
+        "log2_tail": -233.8939001253348,
+        "tilt": 0.0898543397513987,
+        "fft_length": 8640,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -494.4381880404165,
+        "relative_truncated_weight_bound_log2": -62.98415340474129,
+        "tilted_mass": 0.9999999999999716,
+        "weighted_tail": 0.012097173913258027
+      }
+    },
+    {
+      "h": [
+        554,
+        -1662,
+        -554,
+        559
+      ],
+      "primitive_h": [
+        554,
+        -1662,
+        -554,
+        559
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.72593688250652,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.27489023195952,
+        "tilt": 0.00017250531866001557,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6512237513811,
+        "relative_truncated_weight_bound_log2": -63.70058524685149,
+        "tilted_mass": 0.9999999999999712,
+        "weighted_tail": 0.021359869611661062
+      }
+    },
+    {
+      "h": [
+        554,
+        -1662,
+        2775,
+        554
+      ],
+      "primitive_h": [
+        554,
+        -1662,
+        2775,
+        554
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -644.3118612784663,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        554,
+        -559,
+        554,
+        -1667
+      ],
+      "primitive_h": [
+        554,
+        -559,
+        554,
+        -1667
+      ],
+      "threshold": 1852601,
+      "multiplicity": 2,
+      "chernoff_log2": -229.79207530994398,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.3430528317921,
+        "tilt": 0.00017249487722415118,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.00841963222086,
+        "relative_truncated_weight_bound_log2": -63.698600102327944,
+        "tilted_mass": 0.9999999999999715,
+        "weighted_tail": 0.021329921673789803
+      }
+    },
+    {
+      "h": [
+        554,
+        -559,
+        554,
+        -1662
+      ],
+      "primitive_h": [
+        554,
+        -559,
+        554,
+        -1662
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.72597556348097,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.27492943635207,
+        "tilt": 0.0001725053319129939,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.65122148855176,
+        "relative_truncated_weight_bound_log2": -63.700590043632175,
+        "tilted_mass": 1.0000000000000568,
+        "weighted_tail": 0.021359861862174204
+      }
+    },
+    {
+      "h": [
+        554,
+        -559,
+        554,
+        1662
+      ],
+      "primitive_h": [
+        554,
+        -559,
+        554,
+        1662
+      ],
+      "threshold": 1844279,
+      "multiplicity": 2,
+      "chernoff_log2": -228.71319450392699,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26210377931108,
+        "tilt": 0.00017250099832866276,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.65097737987136,
+        "relative_truncated_weight_bound_log2": -63.70063705640351,
+        "tilted_mass": 0.9999999999999996,
+        "weighted_tail": 0.021360522161726316
+      }
+    },
+    {
+      "h": [
+        554,
+        -559,
+        554,
+        1667
+      ],
+      "primitive_h": [
+        554,
+        -559,
+        554,
+        1667
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.77925725414758,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.33019022581402,
+        "tilt": 0.00017249055398503756,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.0081794629999,
+        "relative_truncated_weight_bound_log2": -63.69865100921093,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021330580348371663
+      }
+    },
+    {
+      "h": [
+        554,
+        -554,
+        -2775,
+        -1662
+      ],
+      "primitive_h": [
+        554,
+        -554,
+        -2775,
+        -1662
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -612.0565690688265,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        554,
+        -554,
+        -2775,
+        1662
+      ],
+      "primitive_h": [
+        554,
+        -554,
+        -2775,
+        1662
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -644.3226516325373,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        554,
+        -554,
+        554,
+        -1667
+      ],
+      "primitive_h": [
+        554,
+        -554,
+        554,
+        -1667
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.4815288241667,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.0196142085201,
+        "tilt": 0.00017253419313411917,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14788993729894,
+        "relative_truncated_weight_bound_log2": -63.71134544546717,
+        "tilted_mass": 0.9999999999999434,
+        "weighted_tail": 0.021521383217145976
+      }
+    },
+    {
+      "h": [
+        554,
+        -554,
+        554,
+        -1662
+      ],
+      "primitive_h": [
+        1,
+        -1,
+        1,
+        -3
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.41507381954446,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.89390012533516,
+        "tilt": 0.0955897231397859,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.2892477396966,
+        "relative_truncated_weight_bound_log2": -63.88830391967112,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.022423786042072107
+      }
+    },
+    {
+      "h": [
+        554,
+        -554,
+        554,
+        1662
+      ],
+      "primitive_h": [
+        1,
+        -1,
+        1,
+        3
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.40228990111183,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.88107313966665,
+        "tilt": 0.09558731734546416,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28990075010154,
+        "relative_truncated_weight_bound_log2": -63.8866011606545,
+        "tilted_mass": 1.000000000000057,
+        "weighted_tail": 0.022424455445406423
+      }
+    },
+    {
+      "h": [
+        554,
+        -554,
+        554,
+        1667
+      ],
+      "primitive_h": [
+        554,
+        -554,
+        554,
+        1667
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.4687078997588,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.00675010305758,
+        "tilt": 0.00017252986095039145,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.1476468601846,
+        "relative_truncated_weight_bound_log2": -63.71139218928707,
+        "tilted_mass": 0.9999999999999716,
+        "weighted_tail": 0.02152202737957265
+      }
+    },
+    {
+      "h": [
+        554,
+        -554,
+        559,
+        -1662
+      ],
+      "primitive_h": [
+        554,
+        -554,
+        559,
+        -1662
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7104612917535,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.25902032717255,
+        "tilt": 0.0001724822359827692,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.629913037224,
+        "relative_truncated_weight_bound_log2": -63.700920437135224,
+        "tilted_mass": 1.0000000000000568,
+        "weighted_tail": 0.021365708439144915
+      }
+    },
+    {
+      "h": [
+        554,
+        -554,
+        559,
+        1667
+      ],
+      "primitive_h": [
+        554,
+        -554,
+        559,
+        1667
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.8097785876208,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.36263733115058,
+        "tilt": 0.00017253584993270234,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04883527918608,
+        "relative_truncated_weight_bound_log2": -63.69673923637051,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.021302126360343107
+      }
+    },
+    {
+      "h": [
+        554,
+        554,
+        -1667,
+        -559
+      ],
+      "primitive_h": [
+        554,
+        554,
+        -1667,
+        -559
+      ],
+      "threshold": 1852601,
+      "multiplicity": 2,
+      "chernoff_log2": -229.77651933028417,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.32690062267343,
+        "tilt": 0.00017247178952972688,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.9873201237118,
+        "relative_truncated_weight_bound_log2": -63.69913407009687,
+        "tilted_mass": 1.000000000000114,
+        "weighted_tail": 0.021338738614013295
+      }
+    },
+    {
+      "h": [
+        554,
+        554,
+        -1667,
+        -554
+      ],
+      "primitive_h": [
+        554,
+        554,
+        -1667,
+        -554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.48152569629033,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.01961107367342,
+        "tilt": 0.00017253419044566538,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.1478887747693,
+        "relative_truncated_weight_bound_log2": -63.71134437338291,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021521383321132962
+      }
+    },
+    {
+      "h": [
+        554,
+        554,
+        -1662,
+        -554
+      ],
+      "primitive_h": [
+        1,
+        1,
+        -3,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.41507069467772,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.89389699546766,
+        "tilt": 0.0955897216453327,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28924657137463,
+        "relative_truncated_weight_bound_log2": -63.88830284018298,
+        "tilted_mass": 0.9999999999999721,
+        "weighted_tail": 0.02242378611978858
+      }
+    },
+    {
+      "h": [
+        554,
+        554,
+        1662,
+        -559
+      ],
+      "primitive_h": [
+        554,
+        554,
+        1662,
+        -559
+      ],
+      "threshold": 1844279,
+      "multiplicity": 2,
+      "chernoff_log2": -228.74366977142918,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.29207997394724,
+        "tilt": 0.00017254640500362245,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.69415293775188,
+        "relative_truncated_weight_bound_log2": -63.701192356590234,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.021367912705680545
+      }
+    },
+    {
+      "h": [
+        554,
+        554,
+        1662,
+        -554
+      ],
+      "primitive_h": [
+        1,
+        1,
+        3,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.40228677644117,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.88107000999682,
+        "tilt": 0.09558731585106384,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28989958181057,
+        "relative_truncated_weight_bound_log2": -63.88660008120483,
+        "tilted_mass": 1.0000000000000004,
+        "weighted_tail": 0.02242445552312653
+      }
+    },
+    {
+      "h": [
+        554,
+        554,
+        1662,
+        2775
+      ],
+      "primitive_h": [
+        554,
+        554,
+        1662,
+        2775
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -644.3009027416502,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        554,
+        554,
+        1667,
+        -554
+      ],
+      "primitive_h": [
+        554,
+        554,
+        1667,
+        -554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.4687047720794,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.00674696840284,
+        "tilt": 0.00017252985826203264,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.1476456976905,
+        "relative_truncated_weight_bound_log2": -63.7113911172176,
+        "tilted_mass": 0.999999999999943,
+        "weighted_tail": 0.02152202748361957
+      }
+    },
+    {
+      "h": [
+        554,
+        559,
+        -1667,
+        -554
+      ],
+      "primitive_h": [
+        554,
+        559,
+        -1667,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.82259684804333,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.37550025759532,
+        "tilt": 0.00017254017388691704,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04907634092032,
+        "relative_truncated_weight_bound_log2": -63.69668758790793,
+        "tilted_mass": 0.9999999999999717,
+        "weighted_tail": 0.021301466854007287
+      }
+    },
+    {
+      "h": [
+        554,
+        559,
+        -1662,
+        -554
+      ],
+      "primitive_h": [
+        554,
+        559,
+        -1662,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.75641544395808,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.30487101904208,
+        "tilt": 0.00017255072871693566,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.69440018098138,
+        "relative_truncated_weight_bound_log2": -63.70113969226019,
+        "tilted_mass": 0.9999999999999717,
+        "weighted_tail": 0.02136724069824958
+      }
+    },
+    {
+      "h": [
+        554,
+        559,
+        1662,
+        -554
+      ],
+      "primitive_h": [
+        554,
+        559,
+        1662,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.69767873312128,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.24619330247302,
+        "tilt": 0.00017247790138794658,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.629668717318,
+        "relative_truncated_weight_bound_log2": -63.7009664482089,
+        "tilted_mass": 1.000000000000057,
+        "weighted_tail": 0.021366366973105497
+      }
+    },
+    {
+      "h": [
+        554,
+        559,
+        1667,
+        -554
+      ],
+      "primitive_h": [
+        554,
+        559,
+        1667,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.7636642866328,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.31399928460763,
+        "tilt": 0.0001724674548377691,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.9870845521002,
+        "relative_truncated_weight_bound_log2": -63.69918165870858,
+        "tilted_mass": 0.9999999999999436,
+        "weighted_tail": 0.02133942336042991
+      }
+    },
+    {
+      "h": [
+        554,
+        1662,
+        -559,
+        554
+      ],
+      "primitive_h": [
+        554,
+        1662,
+        -559,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.69772058755848,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.24623606695417,
+        "tilt": 0.00017247791737538636,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.629667258311,
+        "relative_truncated_weight_bound_log2": -63.700971957085095,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.021366353495322357
+      }
+    },
+    {
+      "h": [
+        554,
+        1662,
+        -554,
+        554
+      ],
+      "primitive_h": [
+        1,
+        3,
+        -1,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 4,
+      "chernoff_log2": -228.4022899011116,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.88107313966674,
+        "tilt": 0.09558731734546418,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28990075010145,
+        "relative_truncated_weight_bound_log2": -63.88660116065442,
+        "tilted_mass": 0.9999999999999724,
+        "weighted_tail": 0.022424455445405028
+      }
+    },
+    {
+      "h": [
+        554,
+        1662,
+        -554,
+        559
+      ],
+      "primitive_h": [
+        554,
+        1662,
+        -554,
+        559
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.71315582391676,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.26206457645392,
+        "tilt": 0.00017250098507551762,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.65097964205896,
+        "relative_truncated_weight_bound_log2": -63.70063225885045,
+        "tilted_mass": 0.9999999999999715,
+        "weighted_tail": 0.021360529902990002
+      }
+    },
+    {
+      "h": [
+        554,
+        1667,
+        -559,
+        554
+      ],
+      "primitive_h": [
+        554,
+        1667,
+        -559,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.76370614193215,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.3140428906535,
+        "tilt": 0.00017246747074675526,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.9870822504328,
+        "relative_truncated_weight_bound_log2": -63.6991862957735,
+        "tilted_mass": 0.9999999999999433,
+        "weighted_tail": 0.021339397464519877
+      }
+    },
+    {
+      "h": [
+        554,
+        1667,
+        -554,
+        554
+      ],
+      "primitive_h": [
+        554,
+        1667,
+        -554,
+        554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 4,
+      "chernoff_log2": -229.4687078997588,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.0067501030575,
+        "tilt": 0.00017252986095039142,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.1476468601846,
+        "relative_truncated_weight_bound_log2": -63.71139218928707,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.021522027379572685
+      }
+    },
+    {
+      "h": [
+        554,
+        1667,
+        -554,
+        559
+      ],
+      "primitive_h": [
+        554,
+        1667,
+        -554,
+        559
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.7792185764613,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.33014705569082,
+        "tilt": 0.0001724905408012448,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.00818569291036,
+        "relative_truncated_weight_bound_log2": -63.698650208766125,
+        "tilted_mass": 0.9999999999999714,
+        "weighted_tail": 0.021330646770200953
+      }
+    },
+    {
+      "h": [
+        554,
+        2770,
+        554,
+        -1667
+      ],
+      "primitive_h": [
+        554,
+        2770,
+        554,
+        -1667
+      ],
+      "threshold": 5532811,
+      "multiplicity": 1,
+      "chernoff_log2": -657.9817538662862,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        554,
+        2770,
+        554,
+        1667
+      ],
+      "primitive_h": [
+        554,
+        2770,
+        554,
+        1667
+      ],
+      "threshold": 5532811,
+      "multiplicity": 1,
+      "chernoff_log2": -657.97036479803,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        559,
+        -2770,
+        -1662,
+        -554
+      ],
+      "primitive_h": [
+        559,
+        -2770,
+        -1662,
+        -554
+      ],
+      "threshold": 5527271,
+      "multiplicity": 1,
+      "chernoff_log2": -643.2155467348034,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        559,
+        -1667,
+        -554,
+        554
+      ],
+      "primitive_h": [
+        559,
+        -1667,
+        -554,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.7764838397231,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.32686339701633,
+        "tilt": 0.00017247177908201987,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.98732478974105,
+        "relative_truncated_weight_bound_log2": -63.699131610312214,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.02133876427764297
+      }
+    },
+    {
+      "h": [
+        559,
+        -1662,
+        -554,
+        554
+      ],
+      "primitive_h": [
+        559,
+        -1662,
+        -554,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7104612917534,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.25902032717246,
+        "tilt": 0.00017248223598276917,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.62991303722416,
+        "relative_truncated_weight_bound_log2": -63.70092043713521,
+        "tilted_mass": 0.9999999999999719,
+        "weighted_tail": 0.02136570843914495
+      }
+    },
+    {
+      "h": [
+        559,
+        -554,
+        554,
+        -1667
+      ],
+      "primitive_h": [
+        559,
+        -554,
+        554,
+        -1667
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.82259994884683,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.37550336276556,
+        "tilt": 0.0001725401765492438,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04907749698472,
+        "relative_truncated_weight_bound_log2": -63.69668865207505,
+        "tilted_mass": 0.9999999999999718,
+        "weighted_tail": 0.02130146678953051
+      }
+    },
+    {
+      "h": [
+        559,
+        -554,
+        554,
+        1662
+      ],
+      "primitive_h": [
+        559,
+        -554,
+        554,
+        1662
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.69768191268454,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.24619648916058,
+        "tilt": 0.0001724779041275824,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.62966990398888,
+        "relative_truncated_weight_bound_log2": -63.70096754104178,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.021366366867589727
+      }
+    },
+    {
+      "h": [
+        559,
+        -554,
+        559,
+        -1662
+      ],
+      "primitive_h": [
+        559,
+        -554,
+        559,
+        -1662
+      ],
+      "threshold": 1847061,
+      "multiplicity": 1,
+      "chernoff_log2": -229.05178994078196,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.6010187088133,
+        "tilt": 0.0001724886779739425,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.54512845764947,
+        "relative_truncated_weight_bound_log2": -63.7003485985141,
+        "tilted_mass": 1.0000000000000284,
+        "weighted_tail": 0.02135579228190141
+      }
+    },
+    {
+      "h": [
+        559,
+        -554,
+        559,
+        1667
+      ],
+      "primitive_h": [
+        559,
+        -554,
+        559,
+        1667
+      ],
+      "threshold": 1855384,
+      "multiplicity": 1,
+      "chernoff_log2": -230.10522183638383,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.65905225423316,
+        "tilt": 0.00017247395603952034,
+        "fft_length": 2073600,
+        "full_support_length": 34551973,
+        "relative_alias_bound_log2": -161.90009404408306,
+        "relative_truncated_weight_bound_log2": -63.69555951531181,
+        "tilted_mass": 1.0000000000001137,
+        "weighted_tail": 0.021287783925058815
+      },
+      "check": {
+        "log2_tail": -235.65905225423305,
+        "tilt": 0.0001621255186771491,
+        "fft_length": 4665600,
+        "full_support_length": 34551973,
+        "relative_alias_bound_log2": -476.92033038429133,
+        "relative_truncated_weight_bound_log2": -62.79793038030074,
+        "tilted_mass": 0.9999999999999428,
+        "weighted_tail": 0.01142664294308418
+      }
+    },
+    {
+      "h": [
+        559,
+        554,
+        -1662,
+        -554
+      ],
+      "primitive_h": [
+        559,
+        554,
+        -1662,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7259337300119,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.27488707316232,
+        "tilt": 0.00017250531594304832,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.65122257372818,
+        "relative_truncated_weight_bound_log2": -63.70058416247032,
+        "tilted_mass": 0.9999999999999712,
+        "weighted_tail": 0.021359869704972365
+      }
+    },
+    {
+      "h": [
+        559,
+        554,
+        1667,
+        -554
+      ],
+      "primitive_h": [
+        559,
+        554,
+        1667,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.77921542113174,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.33014389317492,
+        "tilt": 0.00017249053809353397,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.00818452002878,
+        "relative_truncated_weight_bound_log2": -63.69864912889052,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.02133064687644699
+      }
+    },
+    {
+      "h": [
+        559,
+        559,
+        -1662,
+        -554
+      ],
+      "primitive_h": [
+        559,
+        559,
+        -1662,
+        -554
+      ],
+      "threshold": 1847061,
+      "multiplicity": 1,
+      "chernoff_log2": -229.0670610022579,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.6161870806236,
+        "tilt": 0.00017251142935329145,
+        "fft_length": 2073600,
+        "full_support_length": 34449033,
+        "relative_alias_bound_log2": -162.5667192704844,
+        "relative_truncated_weight_bound_log2": -63.700376745511086,
+        "tilted_mass": 1.0000000000000007,
+        "weighted_tail": 0.02135731242106079
+      }
+    },
+    {
+      "h": [
+        559,
+        559,
+        1667,
+        -554
+      ],
+      "primitive_h": [
+        559,
+        559,
+        1667,
+        -554
+      ],
+      "threshold": 1855384,
+      "multiplicity": 1,
+      "chernoff_log2": -230.07407453222703,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.62729937342488,
+        "tilt": 0.00017242787203042718,
+        "fft_length": 2073600,
+        "full_support_length": 34603173,
+        "relative_alias_bound_log2": -161.8572298772957,
+        "relative_truncated_weight_bound_log2": -63.69631913200314,
+        "tilted_mass": 0.9999999999999716,
+        "weighted_tail": 0.02129672142779757
+      }
+    },
+    {
+      "h": [
+        559,
+        1662,
+        -554,
+        554
+      ],
+      "primitive_h": [
+        559,
+        1662,
+        -554,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.74363417907486,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.29204492591927,
+        "tilt": 0.0001725463944113547,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6941552903307,
+        "relative_truncated_weight_bound_log2": -63.701187561173725,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021367904643606217
+      }
+    },
+    {
+      "h": [
+        559,
+        1667,
+        -554,
+        554
+      ],
+      "primitive_h": [
+        559,
+        1667,
+        -554,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.80977858762063,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.36263733115058,
+        "tilt": 0.00017253584993270234,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04883527918625,
+        "relative_truncated_weight_bound_log2": -63.69673923637053,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021302126360343347
+      }
+    },
+    {
+      "h": [
+        1108,
+        -2216,
+        0,
+        -1113
+      ],
+      "primitive_h": [
+        1108,
+        -2216,
+        0,
+        -1113
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.7554325500256,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        -2216,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        1,
+        -2,
+        0,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -453.0701356044639,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        -1113,
+        -2221,
+        0
+      ],
+      "primitive_h": [
+        1108,
+        -1113,
+        -2221,
+        0
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.02162413526986,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        -1113,
+        1108,
+        0
+      ],
+      "primitive_h": [
+        1108,
+        -1113,
+        1108,
+        0
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.87058092940865,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.48474718903128,
+        "tilt": 0.00015779397198894732,
+        "fft_length": 2332800,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -199.55769276801843,
+        "relative_truncated_weight_bound_log2": -63.63539379831781,
+        "tilted_mass": 0.9999999999999427,
+        "weighted_tail": 0.020415854184706983
+      }
+    },
+    {
+      "h": [
+        1108,
+        -1113,
+        1113,
+        0
+      ],
+      "primitive_h": [
+        1108,
+        -1113,
+        1113,
+        0
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.51643075921262,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.0910057379558,
+        "tilt": 0.00015776350889157813,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.9205869460499,
+        "relative_truncated_weight_bound_log2": -63.674817094111596,
+        "tilted_mass": 0.9999999999999715,
+        "weighted_tail": 0.02098387634337092
+      }
+    },
+    {
+      "h": [
+        1108,
+        -1108,
+        -2221,
+        0
+      ],
+      "primitive_h": [
+        1108,
+        -1108,
+        -2221,
+        0
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.39595491554996,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        -1108,
+        1108,
+        0
+      ],
+      "primitive_h": [
+        1,
+        -1,
+        1,
+        0
+      ],
+      "threshold": 1662,
+      "multiplicity": 4,
+      "chernoff_log2": -216.26602360893455,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -221.72796632048522,
+        "tilt": 0.17492874404670555,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -210.18760165832785,
+        "relative_truncated_weight_bound_log2": -63.939485963359346,
+        "tilted_mass": 0.9999999999999433,
+        "weighted_tail": 0.02268774902090418
+      }
+    },
+    {
+      "h": [
+        1108,
+        -1108,
+        1113,
+        0
+      ],
+      "primitive_h": [
+        1108,
+        -1108,
+        1113,
+        0
+      ],
+      "threshold": 1847049,
+      "multiplicity": 1,
+      "chernoff_log2": -216.91257297491683,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49032880769477,
+        "tilt": 0.0001578477532863264,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.8069903352225,
+        "relative_truncated_weight_bound_log2": -63.671723196793266,
+        "tilted_mass": 0.999999999999943,
+        "weighted_tail": 0.020937662058030673
+      }
+    },
+    {
+      "h": [
+        1108,
+        0,
+        -1113,
+        -2221
+      ],
+      "primitive_h": [
+        1108,
+        0,
+        -1113,
+        -2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 2,
+      "chernoff_log2": -419.93376451969283,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        0,
+        -1113,
+        1108
+      ],
+      "primitive_h": [
+        1108,
+        0,
+        -1113,
+        1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.91260809331462,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49033423301043,
+        "tilt": 0.00015784776356566257,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80700853143207,
+        "relative_truncated_weight_bound_log2": -63.671757399529405,
+        "tilted_mass": 0.9999999999999998,
+        "weighted_tail": 0.020938092994652657
+      }
+    },
+    {
+      "h": [
+        1108,
+        0,
+        -1108,
+        -2221
+      ],
+      "primitive_h": [
+        1108,
+        0,
+        -1108,
+        -2221
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -419.41385706854214,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        0,
+        -1108,
+        -2216
+      ],
+      "primitive_h": [
+        1,
+        0,
+        -1,
+        -2
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -418.2079643406207,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        0,
+        -1108,
+        1108
+      ],
+      "primitive_h": [
+        1,
+        0,
+        -1,
+        1
+      ],
+      "threshold": 1662,
+      "multiplicity": 3,
+      "chernoff_log2": -216.26602360893463,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -221.7279663204846,
+        "tilt": 0.17492874404670555,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -210.18760165832748,
+        "relative_truncated_weight_bound_log2": -63.939485963359296,
+        "tilted_mass": 0.9999999999999432,
+        "weighted_tail": 0.022687749020903425
+      }
+    },
+    {
+      "h": [
+        1108,
+        0,
+        -1108,
+        1113
+      ],
+      "primitive_h": [
+        1108,
+        0,
+        -1108,
+        1113
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.8705458227301,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.48473940858585,
+        "tilt": 0.0001577939617182214,
+        "fft_length": 2332800,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -199.55767693356813,
+        "relative_truncated_weight_bound_log2": -63.635361964667425,
+        "tilted_mass": 0.9999999999999714,
+        "weighted_tail": 0.020415467489601893
+      },
+      "check": {
+        "log2_tail": -222.48473940858605,
+        "tilt": 0.0001483263240151281,
+        "fft_length": 5184000,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -749.3724535234261,
+        "relative_truncated_weight_bound_log2": -62.7011052953957,
+        "tilted_mass": 0.9999999999998861,
+        "weighted_tail": 0.01068477244234541
+      }
+    },
+    {
+      "h": [
+        1108,
+        0,
+        2216,
+        1108
+      ],
+      "primitive_h": [
+        1,
+        0,
+        2,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -453.04571506291563,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        0,
+        2221,
+        1108
+      ],
+      "primitive_h": [
+        1108,
+        0,
+        2221,
+        1108
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.3715135321203,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        0,
+        2221,
+        1113
+      ],
+      "primitive_h": [
+        1108,
+        0,
+        2221,
+        1113
+      ],
+      "threshold": 3699637,
+      "multiplicity": 2,
+      "chernoff_log2": -454.9971517524533,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        1108,
+        0,
+        -1113
+      ],
+      "primitive_h": [
+        1108,
+        1108,
+        0,
+        -1113
+      ],
+      "threshold": 1847049,
+      "multiplicity": 1,
+      "chernoff_log2": -216.912597925953,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.4903240254362,
+        "tilt": 0.00015784775611642592,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80699977852353,
+        "relative_truncated_weight_bound_log2": -63.67175417168282,
+        "tilted_mass": 0.9999999999999998,
+        "weighted_tail": 0.020938093578261322
+      }
+    },
+    {
+      "h": [
+        1108,
+        1108,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        1,
+        1,
+        0,
+        -1
+      ],
+      "threshold": 1662,
+      "multiplicity": 4,
+      "chernoff_log2": -216.26601346644205,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -221.72795614792474,
+        "tilt": 0.1749287357873909,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -210.18759246424395,
+        "relative_truncated_weight_bound_log2": -63.93948271661919,
+        "tilted_mass": 0.9999999999999992,
+        "weighted_tail": 0.022687749493779094
+      }
+    },
+    {
+      "h": [
+        1108,
+        1108,
+        0,
+        2216
+      ],
+      "primitive_h": [
+        1,
+        1,
+        0,
+        2
+      ],
+      "threshold": 3324,
+      "multiplicity": 1,
+      "chernoff_log2": -453.04572212297705,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        1108,
+        0,
+        2221
+      ],
+      "primitive_h": [
+        1108,
+        1108,
+        0,
+        2221
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.3715206272217,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        1113,
+        0,
+        -1113
+      ],
+      "primitive_h": [
+        1108,
+        1113,
+        0,
+        -1113
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.5587152070259,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.17937661818942,
+        "tilt": 0.0001578174499054794,
+        "fft_length": 2332800,
+        "full_support_length": 45846153,
+        "relative_alias_bound_log2": -199.08714597153397,
+        "relative_truncated_weight_bound_log2": -63.628728786926544,
+        "tilted_mass": 0.9999999999999716,
+        "weighted_tail": 0.020324146642671716
+      }
+    },
+    {
+      "h": [
+        1108,
+        1113,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        1108,
+        1113,
+        0,
+        -1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.9125628075565,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49031860012008,
+        "tilt": 0.00015784774583709016,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.8069815823147,
+        "relative_truncated_weight_bound_log2": -63.671719968949205,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.0209376626416614
+      }
+    },
+    {
+      "h": [
+        1108,
+        1113,
+        0,
+        2221
+      ],
+      "primitive_h": [
+        1108,
+        1113,
+        0,
+        2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.0564549909974,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        2216,
+        -2221,
+        0
+      ],
+      "primitive_h": [
+        1108,
+        2216,
+        -2221,
+        0
+      ],
+      "threshold": 5535581,
+      "multiplicity": 1,
+      "chernoff_log2": -662.6198319045949,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1108,
+        2216,
+        1108,
+        0
+      ],
+      "primitive_h": [
+        1,
+        2,
+        1,
+        0
+      ],
+      "threshold": 3324,
+      "multiplicity": 3,
+      "chernoff_log2": -418.18664075796227,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        -2216,
+        0,
+        -1113
+      ],
+      "primitive_h": [
+        1113,
+        -2216,
+        0,
+        -1113
+      ],
+      "threshold": 3694097,
+      "multiplicity": 1,
+      "chernoff_log2": -454.38166787118854,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        -2216,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        1113,
+        -2216,
+        0,
+        -1108
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.6964591748671,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        -2216,
+        0,
+        2221
+      ],
+      "primitive_h": [
+        1113,
+        -2216,
+        0,
+        2221
+      ],
+      "threshold": 5541133,
+      "multiplicity": 1,
+      "chernoff_log2": -635.3097918456532,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        -1113,
+        1108,
+        0
+      ],
+      "primitive_h": [
+        1113,
+        -1113,
+        1108,
+        0
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.51643075921262,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.0910057379558,
+        "tilt": 0.00015776350889157816,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.9205869460496,
+        "relative_truncated_weight_bound_log2": -63.67481709411165,
+        "tilted_mass": 1.0000000000000566,
+        "weighted_tail": 0.02098387634337175
+      }
+    },
+    {
+      "h": [
+        1113,
+        -1113,
+        1113,
+        0
+      ],
+      "primitive_h": [
+        1,
+        -1,
+        1,
+        0
+      ],
+      "threshold": 1670,
+      "multiplicity": 1,
+      "chernoff_log2": -218.28884235822787,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.75826618037178,
+        "tilt": 0.17559865052710888,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -209.50758101826574,
+        "relative_truncated_weight_bound_log2": -63.94444900867653,
+        "tilted_mass": 0.9999999999999714,
+        "weighted_tail": 0.02257040596004341
+      }
+    },
+    {
+      "h": [
+        1113,
+        -1108,
+        -2216,
+        0
+      ],
+      "primitive_h": [
+        1113,
+        -1108,
+        -2216,
+        0
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.75538883282223,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        -1108,
+        1108,
+        0
+      ],
+      "primitive_h": [
+        1113,
+        -1108,
+        1108,
+        0
+      ],
+      "threshold": 1847049,
+      "multiplicity": 2,
+      "chernoff_log2": -216.91257297491683,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49032880769474,
+        "tilt": 0.00015784775328632643,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80699033522254,
+        "relative_truncated_weight_bound_log2": -63.671723196793394,
+        "tilted_mass": 0.9999999999999715,
+        "weighted_tail": 0.020937662058032134
+      }
+    },
+    {
+      "h": [
+        1113,
+        -1108,
+        1113,
+        0
+      ],
+      "primitive_h": [
+        1113,
+        -1108,
+        1113,
+        0
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.5586902874423,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.17932113822403,
+        "tilt": 0.0001578174471091319,
+        "fft_length": 2332800,
+        "full_support_length": 45846153,
+        "relative_alias_bound_log2": -199.08719673396868,
+        "relative_truncated_weight_bound_log2": -63.62875812028765,
+        "tilted_mass": 1.0000000000000566,
+        "weighted_tail": 0.020324577170435818
+      },
+      "check": {
+        "log2_tail": -223.17932113822388,
+        "tilt": 0.00014834840028258399,
+        "fft_length": 5184000,
+        "full_support_length": 45846153,
+        "relative_alias_bound_log2": -748.8559252542827,
+        "relative_truncated_weight_bound_log2": -62.69168435818675,
+        "tilted_mass": 1.000000000000057,
+        "weighted_tail": 0.010614978776648819
+      }
+    },
+    {
+      "h": [
+        1113,
+        0,
+        -1113,
+        -2221
+      ],
+      "primitive_h": [
+        1113,
+        0,
+        -1113,
+        -2221
+      ],
+      "threshold": 3705190,
+      "multiplicity": 1,
+      "chernoff_log2": -420.45363290125124,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        0,
+        -1113,
+        1108
+      ],
+      "primitive_h": [
+        1113,
+        0,
+        -1113,
+        1108
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.55872539923777,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.17938683637917,
+        "tilt": 0.00015781745734971925,
+        "fft_length": 2332800,
+        "full_support_length": 45846153,
+        "relative_alias_bound_log2": -199.08715471204076,
+        "relative_truncated_weight_bound_log2": -63.628732027438474,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.020324146276707006
+      }
+    },
+    {
+      "h": [
+        1113,
+        0,
+        -1108,
+        -2221
+      ],
+      "primitive_h": [
+        1113,
+        0,
+        -1108,
+        -2221
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -419.9337324986866,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        0,
+        -1108,
+        -2216
+      ],
+      "primitive_h": [
+        1113,
+        0,
+        -1108,
+        -2216
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -418.7286987546768,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        0,
+        -1108,
+        1108
+      ],
+      "primitive_h": [
+        1113,
+        0,
+        -1108,
+        1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 3,
+      "chernoff_log2": -216.91257297491683,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.49032880769477,
+        "tilt": 0.00015784775328632643,
+        "fft_length": 2332800,
+        "full_support_length": 45794413,
+        "relative_alias_bound_log2": -199.80699033522242,
+        "relative_truncated_weight_bound_log2": -63.67172319679337,
+        "tilted_mass": 0.9999999999999714,
+        "weighted_tail": 0.020937662058031797
+      }
+    },
+    {
+      "h": [
+        1113,
+        0,
+        -1108,
+        1113
+      ],
+      "primitive_h": [
+        1113,
+        0,
+        -1108,
+        1113
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.51639565917142,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.09093486337267,
+        "tilt": 0.0001577634986595932,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.9206341510795,
+        "relative_truncated_weight_bound_log2": -63.67484837738229,
+        "tilted_mass": 0.9999999999999714,
+        "weighted_tail": 0.02098439668748662
+      }
+    },
+    {
+      "h": [
+        1113,
+        0,
+        2216,
+        1108
+      ],
+      "primitive_h": [
+        1113,
+        0,
+        2216,
+        1108
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.73097503414795,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        1108,
+        0,
+        -1113
+      ],
+      "primitive_h": [
+        1113,
+        1108,
+        0,
+        -1113
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.51642055211067,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.09099549008855,
+        "tilt": 0.00015776350144079945,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.92057823922855,
+        "relative_truncated_weight_bound_log2": -63.67481386439981,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.020983876936294537
+      }
+    },
+    {
+      "h": [
+        1113,
+        1108,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        1113,
+        1108,
+        0,
+        -1108
+      ],
+      "threshold": 1847049,
+      "multiplicity": 2,
+      "chernoff_log2": -216.87053564053988,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -222.4847291984555,
+        "tilt": 0.0001577939542624464,
+        "fft_length": 2332800,
+        "full_support_length": 45845613,
+        "relative_alias_bound_log2": -199.5576681872992,
+        "relative_truncated_weight_bound_log2": -63.63535872056173,
+        "tilted_mass": 0.9999999999999716,
+        "weighted_tail": 0.020415467884983766
+      }
+    },
+    {
+      "h": [
+        1113,
+        1113,
+        0,
+        -1113
+      ],
+      "primitive_h": [
+        1,
+        1,
+        0,
+        -1
+      ],
+      "threshold": 1670,
+      "multiplicity": 1,
+      "chernoff_log2": -218.28883212023857,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.75825591232547,
+        "tilt": 0.17559864223807015,
+        "fft_length": 2160,
+        "full_support_length": 41285,
+        "relative_alias_bound_log2": -209.5075718571553,
+        "relative_truncated_weight_bound_log2": -63.94444576209142,
+        "tilted_mass": 1.0000000000000004,
+        "weighted_tail": 0.022570406430304578
+      }
+    },
+    {
+      "h": [
+        1113,
+        1113,
+        0,
+        -1108
+      ],
+      "primitive_h": [
+        1113,
+        1113,
+        0,
+        -1108
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -217.51638545207115,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -223.09092461551177,
+        "tilt": 0.00015776349120881486,
+        "fft_length": 2332800,
+        "full_support_length": 45897353,
+        "relative_alias_bound_log2": -198.92062544425315,
+        "relative_truncated_weight_bound_log2": -63.67484514766637,
+        "tilted_mass": 0.9999999999999144,
+        "weighted_tail": 0.020984397280362534
+      }
+    },
+    {
+      "h": [
+        1113,
+        2216,
+        1108,
+        0
+      ],
+      "primitive_h": [
+        1113,
+        2216,
+        1108,
+        0
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -418.70738418776864,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1113,
+        2216,
+        1113,
+        0
+      ],
+      "primitive_h": [
+        1113,
+        2216,
+        1113,
+        0
+      ],
+      "threshold": 3694097,
+      "multiplicity": 1,
+      "chernoff_log2": -419.2277057898182,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1662,
+        -559,
+        -559,
+        -559
+      ],
+      "primitive_h": [
+        1662,
+        -559,
+        -559,
+        -559
+      ],
+      "threshold": 1849844,
+      "multiplicity": 1,
+      "chernoff_log2": -229.35826555228266,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.9084249853254,
+        "tilt": 0.0001724477816581182,
+        "fft_length": 2073600,
+        "full_support_length": 34551973,
+        "relative_alias_bound_log2": -162.41663886786563,
+        "relative_truncated_weight_bound_log2": -63.69941927062471,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.021342020362765363
+      }
+    },
+    {
+      "h": [
+        1662,
+        -559,
+        -554,
+        -554
+      ],
+      "primitive_h": [
+        1662,
+        -559,
+        -554,
+        -554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.75226972288803,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.30071002675234,
+        "tilt": 0.0001725493668213833,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6943910742415,
+        "relative_truncated_weight_bound_log2": -63.70110626765924,
+        "tilted_mass": 0.9999999999999715,
+        "weighted_tail": 0.021367466876031308
+      }
+    },
+    {
+      "h": [
+        1662,
+        -554,
+        -554,
+        -554
+      ],
+      "primitive_h": [
+        3,
+        -1,
+        -1,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 5,
+      "chernoff_log2": -228.4108864237031,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.8896985505243,
+        "tilt": 0.09558895881896398,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.28949549793316,
+        "relative_truncated_weight_bound_log2": -63.887763449664995,
+        "tilted_mass": 1.000000000000028,
+        "weighted_tail": 0.022424006426647138
+      }
+    },
+    {
+      "h": [
+        1662,
+        -554,
+        2775,
+        -554
+      ],
+      "primitive_h": [
+        1662,
+        -554,
+        2775,
+        -554
+      ],
+      "threshold": 5538351,
+      "multiplicity": 1,
+      "chernoff_log2": -658.5823587378184,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1662,
+        554,
+        554,
+        554
+      ],
+      "primitive_h": [
+        3,
+        1,
+        1,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 5,
+      "chernoff_log2": -228.39798700807282,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -233.87675579478972,
+        "tilt": 0.09558649436239786,
+        "fft_length": 3750,
+        "full_support_length": 62089,
+        "relative_alias_bound_log2": -163.2901016201423,
+        "relative_truncated_weight_bound_log2": -63.88601839375767,
+        "tilted_mass": 0.9999999999999719,
+        "weighted_tail": 0.022424680077927615
+      }
+    },
+    {
+      "h": [
+        1662,
+        554,
+        554,
+        559
+      ],
+      "primitive_h": [
+        1662,
+        554,
+        554,
+        559
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.73933116110595,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.28772685055372,
+        "tilt": 0.00017254491082258804,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.69409936056002,
+        "relative_truncated_weight_bound_log2": -63.70110505590489,
+        "tilted_mass": 1.0000000000000286,
+        "weighted_tail": 0.021368127661422244
+      }
+    },
+    {
+      "h": [
+        1662,
+        554,
+        559,
+        554
+      ],
+      "primitive_h": [
+        1662,
+        554,
+        559,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.7088538796189,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.25774765600508,
+        "tilt": 0.00017249950261597556,
+        "fft_length": 2073600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -162.6509243578103,
+        "relative_truncated_weight_bound_log2": -63.700549838389286,
+        "tilted_mass": 0.9999999999999433,
+        "weighted_tail": 0.021360751640895147
+      },
+      "check": {
+        "log2_tail": -234.257747656005,
+        "tilt": 0.00016214953245901703,
+        "fft_length": 4665600,
+        "full_support_length": 34448493,
+        "relative_alias_bound_log2": -478.71871399509496,
+        "relative_truncated_weight_bound_log2": -62.80897073460782,
+        "tilted_mass": 1.0000000000000002,
+        "weighted_tail": 0.011512841457964176
+      }
+    },
+    {
+      "h": [
+        1662,
+        559,
+        554,
+        554
+      ],
+      "primitive_h": [
+        1662,
+        559,
+        554,
+        554
+      ],
+      "threshold": 1844279,
+      "multiplicity": 1,
+      "chernoff_log2": -228.69338051457353,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -234.24188016124458,
+        "tilt": 0.00017247642224405295,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.629614945507,
+        "relative_truncated_weight_bound_log2": -63.70088515977354,
+        "tilted_mass": 0.9999999999999996,
+        "weighted_tail": 0.02136658797969908
+      }
+    },
+    {
+      "h": [
+        1662,
+        2770,
+        -559,
+        -559
+      ],
+      "primitive_h": [
+        1662,
+        2770,
+        -559,
+        -559
+      ],
+      "threshold": 5530053,
+      "multiplicity": 1,
+      "chernoff_log2": -643.3501408777787,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1667,
+        -2770,
+        559,
+        559
+      ],
+      "primitive_h": [
+        1667,
+        -2770,
+        559,
+        559
+      ],
+      "threshold": 5538376,
+      "multiplicity": 1,
+      "chernoff_log2": -611.6833292071343,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1667,
+        -559,
+        -554,
+        -554
+      ],
+      "primitive_h": [
+        1667,
+        -559,
+        -554,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.8184136018832,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.3713027907413,
+        "tilt": 0.0001725388067766309,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -162.04906859132623,
+        "relative_truncated_weight_bound_log2": -63.69665095595796,
+        "tilted_mass": 0.9999999999999997,
+        "weighted_tail": 0.02130167682432265
+      }
+    },
+    {
+      "h": [
+        1667,
+        -554,
+        -559,
+        -554
+      ],
+      "primitive_h": [
+        1667,
+        -554,
+        -559,
+        -554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.78785127439605,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.33881115415033,
+        "tilt": 0.0001724934952568115,
+        "fft_length": 2073600,
+        "full_support_length": 34500233,
+        "relative_alias_bound_log2": -162.00841654049268,
+        "relative_truncated_weight_bound_log2": -63.69856065256301,
+        "tilted_mass": 0.9999999999999714,
+        "weighted_tail": 0.02133018250977722
+      }
+    },
+    {
+      "h": [
+        1667,
+        -554,
+        -554,
+        -559
+      ],
+      "primitive_h": [
+        1667,
+        -554,
+        -554,
+        -559
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.7722989876949,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.32266447889924,
+        "tilt": 0.00017247041080407292,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.98731672292396,
+        "relative_truncated_weight_bound_log2": -63.699093940622205,
+        "tilted_mass": 0.9999999999999999,
+        "weighted_tail": 0.021338972328825246
+      }
+    },
+    {
+      "h": [
+        1667,
+        -554,
+        -554,
+        -554
+      ],
+      "primitive_h": [
+        1667,
+        -554,
+        -554,
+        -554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 5,
+      "chernoff_log2": -229.477303901021,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.01537825714595,
+        "tilt": 0.00017253280836089936,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14787975679937,
+        "relative_truncated_weight_bound_log2": -63.711298496684776,
+        "tilted_mass": 0.9999999999998865,
+        "weighted_tail": 0.02152154773122083
+      }
+    },
+    {
+      "h": [
+        1667,
+        554,
+        554,
+        -2775
+      ],
+      "primitive_h": [
+        1667,
+        554,
+        554,
+        -2775
+      ],
+      "threshold": 5546673,
+      "multiplicity": 1,
+      "chernoff_log2": -645.0698930922953,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        1667,
+        554,
+        554,
+        554
+      ],
+      "primitive_h": [
+        1667,
+        554,
+        554,
+        554
+      ],
+      "threshold": 1849819,
+      "multiplicity": 5,
+      "chernoff_log2": -229.46440526258112,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.0024313824125,
+        "tilt": 0.00017252838320414788,
+        "fft_length": 2073600,
+        "full_support_length": 34499693,
+        "relative_alias_bound_log2": -162.14746455400726,
+        "relative_truncated_weight_bound_log2": -63.711561857645016,
+        "tilted_mass": 1.0,
+        "weighted_tail": 0.021522267312990485
+      }
+    },
+    {
+      "h": [
+        1667,
+        559,
+        554,
+        554
+      ],
+      "primitive_h": [
+        1667,
+        559,
+        554,
+        554
+      ],
+      "threshold": 1852601,
+      "multiplicity": 1,
+      "chernoff_log2": -229.75936632754014,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.30968694944235,
+        "tilt": 0.00017246598343535115,
+        "fft_length": 2073600,
+        "full_support_length": 34551433,
+        "relative_alias_bound_log2": -161.9870308288675,
+        "relative_truncated_weight_bound_log2": -63.69910286564245,
+        "tilted_mass": 0.9999999999999143,
+        "weighted_tail": 0.021339636003167673
+      }
+    },
+    {
+      "h": [
+        1667,
+        559,
+        559,
+        559
+      ],
+      "primitive_h": [
+        1667,
+        559,
+        559,
+        559
+      ],
+      "threshold": 1858166,
+      "multiplicity": 1,
+      "chernoff_log2": -230.41111410109664,
+      "method": "tilted one-dimensional FFT",
+      "fft": {
+        "log2_tail": -235.9655424495268,
+        "tilt": 0.0001724329118126746,
+        "fft_length": 2097152,
+        "full_support_length": 34603713,
+        "relative_alias_bound_log2": -164.7920746368724,
+        "relative_truncated_weight_bound_log2": -63.69514952984786,
+        "tilted_mass": 1.0000000000000007,
+        "weighted_tail": 0.02127896294814399
+      }
+    },
+    {
+      "h": [
+        2216,
+        -1113,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        2216,
+        -1113,
+        0,
+        1108
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -418.71458205095024,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2216,
+        -1108,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        2,
+        -1,
+        0,
+        1
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -418.19380960959967,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2216,
+        0,
+        1108,
+        -1113
+      ],
+      "primitive_h": [
+        2216,
+        0,
+        1108,
+        -1113
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.6802768859919,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2216,
+        0,
+        1108,
+        -1108
+      ],
+      "primitive_h": [
+        2,
+        0,
+        1,
+        -1
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -453.05391295195494,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2216,
+        1108,
+        -1113,
+        0
+      ],
+      "primitive_h": [
+        2216,
+        1108,
+        -1113,
+        0
+      ],
+      "threshold": 3688545,
+      "multiplicity": 1,
+      "chernoff_log2": -453.7392097144663,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2216,
+        1108,
+        -1108,
+        0
+      ],
+      "primitive_h": [
+        2,
+        1,
+        -1,
+        0
+      ],
+      "threshold": 3324,
+      "multiplicity": 2,
+      "chernoff_log2": -453.0539129519546,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2221,
+        -1108,
+        0,
+        1108
+      ],
+      "primitive_h": [
+        2221,
+        -1108,
+        0,
+        1108
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -419.39967602762727,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2221,
+        -1108,
+        0,
+        1113
+      ],
+      "primitive_h": [
+        2221,
+        -1108,
+        0,
+        1113
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -419.91955747436924,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2221,
+        0,
+        1108,
+        -1108
+      ],
+      "primitive_h": [
+        2221,
+        0,
+        1108,
+        -1108
+      ],
+      "threshold": 3694085,
+      "multiplicity": 1,
+      "chernoff_log2": -454.3797088131386,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2221,
+        0,
+        1113,
+        -1108
+      ],
+      "primitive_h": [
+        2221,
+        0,
+        1113,
+        -1108
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.064643311845,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2221,
+        1113,
+        -1108,
+        0
+      ],
+      "primitive_h": [
+        2221,
+        1113,
+        -1108,
+        0
+      ],
+      "threshold": 3699637,
+      "multiplicity": 1,
+      "chernoff_log2": -455.00534510979713,
+      "method": "Chernoff remainder"
+    },
+    {
+      "h": [
+        2770,
+        554,
+        -559,
+        -1667
+      ],
+      "primitive_h": [
+        2770,
+        554,
+        -559,
+        -1667
+      ],
+      "threshold": 5535593,
+      "multiplicity": 1,
+      "chernoff_log2": -611.5339654723242,
+      "method": "Chernoff remainder"
+    }
+  ],
+  "elapsed_seconds": 133.40559267997742,
+  "log2_evaluated_sum": -213.55573677843685,
+  "log2_chernoff_remainder": -411.128595578738,
+  "log2_combined_bound": -213.55573677843685
+}

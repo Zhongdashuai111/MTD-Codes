@@ -1,0 +1,15 @@
+Initializing twiddle factors for lenghts up to 2^12...
+forward levels: 0..1..2..3..4..5..6..7..8..9..10..11..12..
+
+inverse levels: 0..1..2..3..4..5..6..7..8..9..10..11..12..
+ Done!
+BASE1 0.21s
+[*] FFT of rows... Done.
+[*] FFT of columns... Done.
+BASE2 12.51s
+[*] FFT of rows... Done.
+[*] FFT of columns... Done.
+INVERSE 26.83s
+[*] Inverse FFT of rows... Done.
+[*] Inverse FFT of columns... Done.
+DECODE 32.77s
