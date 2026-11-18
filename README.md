@@ -25,6 +25,8 @@ The DFR computations use additional dependencies and numerical procedures descri
 | `Table IV/` | Table IV | Contains 12 local ball–Plotkin scripts and 12 Delsarte LP scripts for the parameter pairs listed below. |
 | `Table V MTD_exhaustive_search.py` | Table V | Searches for MTD codes using an exact graph-based maximum-clique algorithm; results are summarized below. |
 | `Example_7/` | Example 7; Table IX | Contains the distance-checking and LP scripts listed below. |
+| `DFR/` | Application to Kyber and DFR Comparison | Contains Python scripts for reproducing the numerical DFR bounds for Kyber-1024 with $\ell=2,4$, comparing the codes in Liu and Sakzad with our constructions. |
+
 
 ### Table IV: Upper Bounds on $d_T^2$
 
