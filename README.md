@@ -1,3 +1,5 @@
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24389890.svg)](https://doi.org/10.5281/zenodo.24389890)
 # Computational Results for Maximum Toroidal Distance Codes
 
 This repository contains Python programs supporting the computational results in **“Bounds and Constructions of Maximum Toroidal Distance Codes”** by Pengjie Zhong, Jinquan Luo, and Yufeng Song.
